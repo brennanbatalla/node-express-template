@@ -1,0 +1,10 @@
+Project Structure:
+
+/controllers
+/configs
+/services
+/middleware
+/database
+/utils
+app.js
+.gitignore
