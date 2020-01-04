@@ -8,6 +8,9 @@
     "start": "env-cmd -f ./configs/.env.development nodemon app.js",
     "start-prod": "env-cmd -f ./configs/.env.production node app.js"
   },
+  "engines": {
+    "node": "12.x"
+  },
   "author": "",
   "license": "ISC",
   "dependencies": {
