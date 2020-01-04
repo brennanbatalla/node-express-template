@@ -3,13 +3,16 @@
 let mysql = require('mysql');
 let initTables = require('./init');
 
+if (!process.env.mysql_host) {
+    return;
+}
 
 const ConnectionPool = mysql.createPool({
-    connectionLimit : 5,
-    host     : process.env.mysql_host,
-    user     : process.env.mysql_user,
-    password : process.env.mysql_password,
-    database : process.env.mysql_database
+    connectionLimit: 5,
+    host: process.env.mysql_host,
+    user: process.env.mysql_user,
+    password: process.env.mysql_password,
+    database: process.env.mysql_database
 });
 
 
