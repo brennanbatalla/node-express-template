@@ -1,3 +1,4 @@
+
 let express = require('express'),
     app = express(),
     cors = require('cors'),
@@ -8,6 +9,8 @@ let express = require('express'),
     compression = require("compression"),
     helmet = require("helmet"),
     path = require('path');
+
+require('./database/config/connectionPool');
 
 app.use(morgan("common"));
 app.use(helmet());
