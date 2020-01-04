@@ -7,6 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "env-cmd -f ./configs/.env.development nodemon app.js",
     "start-heroku-dev": "env-cmd -f ./configs/.env.qa node app.js",
+    "deploy-heroku-qa": "bash ./deploy.sh",
     "start-prod": "env-cmd -f ./configs/.env.production node app.js"
   },
   "engines": {

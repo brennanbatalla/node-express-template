@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "64d4f45b2feb8eda02b7",
+    "revision": "daee818e309019283d58",
     "url": "/static/css/main.6880ecc2.chunk.css"
   },
   {
-    "revision": "64d4f45b2feb8eda02b7",
-    "url": "/static/js/main.64d4f45b.chunk.js"
+    "revision": "daee818e309019283d58",
+    "url": "/static/js/main.daee818e.chunk.js"
   },
   {
     "revision": "60f63c7f62db6e75de2a",
@@ -20,7 +20,7 @@ self.__precacheManifest = [
     "url": "/static/media/travel-map.dfcf711f.jpg"
   },
   {
-    "revision": "60aadad14dd26142045618be41e435bb",
+    "revision": "bb2fe29d586b047a26b7dc6611accaa1",
     "url": "/index.html"
   }
 ];
