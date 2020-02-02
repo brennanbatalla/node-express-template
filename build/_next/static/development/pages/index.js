@@ -1,5 +1,16 @@
 (window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static/development/pages/index.js"],{
 
+/***/ "./assets/icons/airplane-24px.svg":
+/*!****************************************!*\
+  !*** ./assets/icons/airplane-24px.svg ***!
+  \****************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "data:image/svg+xml;base64,PHN2ZyAgZmlsbD0iI0ZGRiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBlbmFibGUtYmFja2dyb3VuZD0ibmV3IDAgMCAyNCAyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiB3aWR0aD0iMjQiPjxnPjxwYXRoIGQ9Ik0yMiwxNnYtMmwtOC41LTVWMy41QzEzLjUsMi42NywxMi44MywyLDEyLDJzLTEuNSwwLjY3LTEuNSwxLjVWOUwyLDE0djJsOC41LTIuNVYxOUw4LDIwLjVMOCwyMmw0LTFsNCwxbDAtMS41TDEzLjUsMTkgdi01LjVMMjIsMTZ6Ii8+PHBhdGggZD0iTTAsMGgyNHYyNEgwVjB6IiBmaWxsPSJub25lIi8+PC9nPjwvc3ZnPg=="
+
+/***/ }),
+
 /***/ "./assets/icons/heart-24px.svg":
 /*!*************************************!*\
   !*** ./assets/icons/heart-24px.svg ***!
@@ -8,6 +19,39 @@
 /***/ (function(module, exports) {
 
 module.exports = "data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjMzFBRkQ0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgd2lkdGg9IjI0Ij4KICAgIDxwYXRoIGQ9Ik0wIDBoMjR2MjRIMHoiIGZpbGw9Im5vbmUiLz4KICAgIDxwYXRoIGQ9Ik0xMiAyMS4zNWwtMS40NS0xLjMyQzUuNCAxNS4zNiAyIDEyLjI4IDIgOC41IDIgNS40MiA0LjQyIDMgNy41IDNjMS43NCAwIDMuNDEuODEgNC41IDIuMDlDMTMuMDkgMy44MSAxNC43NiAzIDE2LjUgMyAxOS41OCAzIDIyIDUuNDIgMjIgOC41YzAgMy43OC0zLjQgNi44Ni04LjU1IDExLjU0TDEyIDIxLjM1eiIvPgo8L3N2Zz4="
+
+/***/ }),
+
+/***/ "./assets/icons/people-24px.svg":
+/*!**************************************!*\
+  !*** ./assets/icons/people-24px.svg ***!
+  \**************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjMzFBRkQ0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgd2lkdGg9IjI0Ij48cGF0aCBkPSJNMCAwaDI0djI0SDB6IiBmaWxsPSJub25lIi8+PHBhdGggZD0iTTE2IDExYzEuNjYgMCAyLjk5LTEuMzQgMi45OS0zUzE3LjY2IDUgMTYgNWMtMS42NiAwLTMgMS4zNC0zIDNzMS4zNCAzIDMgM3ptLTggMGMxLjY2IDAgMi45OS0xLjM0IDIuOTktM1M5LjY2IDUgOCA1QzYuMzQgNSA1IDYuMzQgNSA4czEuMzQgMyAzIDN6bTAgMmMtMi4zMyAwLTcgMS4xNy03IDMuNVYxOWgxNHYtMi41YzAtMi4zMy00LjY3LTMuNS03LTMuNXptOCAwYy0uMjkgMC0uNjIuMDItLjk3LjA1IDEuMTYuODQgMS45NyAxLjk3IDEuOTcgMy40NVYxOWg2di0yLjVjMC0yLjMzLTQuNjctMy41LTctMy41eiIvPjwvc3ZnPg=="
+
+/***/ }),
+
+/***/ "./assets/icons/phone-24px.svg":
+/*!*************************************!*\
+  !*** ./assets/icons/phone-24px.svg ***!
+  \*************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjMzFBRkQ0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgd2lkdGg9IjI0Ij48cGF0aCBkPSJNMCAwaDI0djI0SDB6IiBmaWxsPSJub25lIi8+PHBhdGggZD0iTTIwIDE1LjVjLTEuMjUgMC0yLjQ1LS4yLTMuNTctLjU3LS4zNS0uMTEtLjc0LS4wMy0xLjAyLjI0bC0yLjIgMi4yYy0yLjgzLTEuNDQtNS4xNS0zLjc1LTYuNTktNi41OGwyLjItMi4yMWMuMjgtLjI3LjM2LS42Ni4yNS0xLjAxQzguNyA2LjQ1IDguNSA1LjI1IDguNSA0YzAtLjU1LS40NS0xLTEtMUg0Yy0uNTUgMC0xIC40NS0xIDEgMCA5LjM5IDcuNjEgMTcgMTcgMTcgLjU1IDAgMS0uNDUgMS0xdi0zLjVjMC0uNTUtLjQ1LTEtMS0xek0xMiAzdjEwbDMtM2g2VjNoLTl6Ii8+PC9zdmc+"
+
+/***/ }),
+
+/***/ "./assets/icons/submit-24px.svg":
+/*!**************************************!*\
+  !*** ./assets/icons/submit-24px.svg ***!
+  \**************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjRkZGIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgd2lkdGg9IjI0Ij48cGF0aCBkPSJNMCAwaDI0djI0SDBWMHoiIGZpbGw9Im5vbmUiLz48cGF0aCBkPSJNMTkuNzcgNS4wM2wxLjQgMS40TDguNDMgMTkuMTdsLTUuNi01LjYgMS40LTEuNCA0LjIgNC4yTDE5Ljc3IDUuMDNtMC0yLjgzTDguNDMgMTMuNTRsLTQuMi00LjJMMCAxMy41NyA4LjQzIDIyIDI0IDYuNDMgMTkuNzcgMi4yeiIvPjwvc3ZnPg=="
 
 /***/ }),
 
@@ -46,17 +90,15 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _About_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./About.scss */ "./components/About/About.scss");
 /* harmony import */ var _About_scss__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_About_scss__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _constants__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../constants */ "./constants.js");
-/* harmony import */ var _Card_Card__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../Card/Card */ "./components/Card/Card.js");
-/* harmony import */ var _assets_icons_university_24px_svg__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../assets/icons/university-24px.svg */ "./assets/icons/university-24px.svg");
-/* harmony import */ var _assets_icons_university_24px_svg__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_assets_icons_university_24px_svg__WEBPACK_IMPORTED_MODULE_4__);
-/* harmony import */ var _assets_icons_world_24px_svg__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../assets/icons/world-24px.svg */ "./assets/icons/world-24px.svg");
-/* harmony import */ var _assets_icons_world_24px_svg__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_assets_icons_world_24px_svg__WEBPACK_IMPORTED_MODULE_5__);
-/* harmony import */ var _assets_icons_heart_24px_svg__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../assets/icons/heart-24px.svg */ "./assets/icons/heart-24px.svg");
-/* harmony import */ var _assets_icons_heart_24px_svg__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(_assets_icons_heart_24px_svg__WEBPACK_IMPORTED_MODULE_6__);
+/* harmony import */ var _Card_Card__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../Card/Card */ "./components/Card/Card.js");
+/* harmony import */ var _assets_icons_university_24px_svg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../assets/icons/university-24px.svg */ "./assets/icons/university-24px.svg");
+/* harmony import */ var _assets_icons_university_24px_svg__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_assets_icons_university_24px_svg__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _assets_icons_world_24px_svg__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../assets/icons/world-24px.svg */ "./assets/icons/world-24px.svg");
+/* harmony import */ var _assets_icons_world_24px_svg__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_assets_icons_world_24px_svg__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var _assets_icons_heart_24px_svg__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../assets/icons/heart-24px.svg */ "./assets/icons/heart-24px.svg");
+/* harmony import */ var _assets_icons_heart_24px_svg__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_assets_icons_heart_24px_svg__WEBPACK_IMPORTED_MODULE_5__);
 var _jsxFileName = "/Users/brennanbatalla/Projects/WebApps/linguart/linguartech-company-website/components/About/About.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
-
 
 
 
@@ -69,76 +111,76 @@ var About = function About() {
     id: "About",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 10
+      lineNumber: 9
     },
     __self: this
   }, __jsx("h1", {
     className: "header",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 12
+      lineNumber: 11
     },
     __self: this
   }, "About Us"), __jsx("p", {
     className: "text",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 14
+      lineNumber: 13
     },
     __self: this
   }, "Linguartech is a booking platform that connects international college students to worldwide short-term academic programs. We select the best of three different types of programs including immersion language learning programs, music and art programs, science and technology programs. We help students no matter who they are and where they come, they all have the same opportunity to reach to worldwide great programs."), __jsx("div", {
     className: "cardsContainer",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 20
+      lineNumber: 19
     },
     __self: this
   }, __jsx("div", {
     className: "cardContainer",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 21
+      lineNumber: 20
     },
     __self: this
-  }, __jsx(_Card_Card__WEBPACK_IMPORTED_MODULE_3__["default"], {
-    icon: _assets_icons_university_24px_svg__WEBPACK_IMPORTED_MODULE_4___default.a,
+  }, __jsx(_Card_Card__WEBPACK_IMPORTED_MODULE_2__["default"], {
+    icon: _assets_icons_university_24px_svg__WEBPACK_IMPORTED_MODULE_3___default.a,
     title: "Booking Platform",
     description: "Linguartech is a booking platform that connects international college students to worldwide short-term academic programs.",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 22
+      lineNumber: 21
     },
     __self: this
   })), __jsx("div", {
     className: "cardContainer",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 24
+    },
+    __self: this
+  }, __jsx(_Card_Card__WEBPACK_IMPORTED_MODULE_2__["default"], {
+    icon: _assets_icons_world_24px_svg__WEBPACK_IMPORTED_MODULE_4___default.a,
+    title: "Global Network",
+    description: "Linguartech has partnered with Colleges and Universities all over the world who are excited to accept new applicants.",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 25
     },
     __self: this
-  }, __jsx(_Card_Card__WEBPACK_IMPORTED_MODULE_3__["default"], {
-    icon: _assets_icons_world_24px_svg__WEBPACK_IMPORTED_MODULE_5___default.a,
-    title: "Global Network",
-    description: "Linguartech has partnered with Colleges and Universities all over the world who are excited to accept new applicants.",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 26
-    },
-    __self: this
   })), __jsx("div", {
     className: "cardContainer",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 29
+      lineNumber: 28
     },
     __self: this
-  }, __jsx(_Card_Card__WEBPACK_IMPORTED_MODULE_3__["default"], {
-    icon: _assets_icons_heart_24px_svg__WEBPACK_IMPORTED_MODULE_6___default.a,
+  }, __jsx(_Card_Card__WEBPACK_IMPORTED_MODULE_2__["default"], {
+    icon: _assets_icons_heart_24px_svg__WEBPACK_IMPORTED_MODULE_5___default.a,
     title: "Customer Care",
     description: "With Linguartech's caring staff, we help all our students with every step of the way, from applying to colleges managing their visa requirements.  We are always here to answer any questions whether it is over the phone or through email.",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 30
+      lineNumber: 29
     },
     __self: this
   }))));
@@ -207,10 +249,103 @@ var Card = function Card(_ref) {
       lineNumber: 11
     },
     __self: this
-  }, description));
+  }, description), __jsx("div", {
+    className: "orangeBar",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 12
+    },
+    __self: this
+  }));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Card);
+
+/***/ }),
+
+/***/ "./components/ContactUs/ContactUs.js":
+/*!*******************************************!*\
+  !*** ./components/ContactUs/ContactUs.js ***!
+  \*******************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/classCallCheck */ "./node_modules/@babel/runtime-corejs2/helpers/esm/classCallCheck.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/createClass */ "./node_modules/@babel/runtime-corejs2/helpers/esm/createClass.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/possibleConstructorReturn */ "./node_modules/@babel/runtime-corejs2/helpers/esm/possibleConstructorReturn.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/getPrototypeOf */ "./node_modules/@babel/runtime-corejs2/helpers/esm/getPrototypeOf.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/assertThisInitialized */ "./node_modules/@babel/runtime-corejs2/helpers/esm/assertThisInitialized.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/inherits */ "./node_modules/@babel/runtime-corejs2/helpers/esm/inherits.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/defineProperty */ "./node_modules/@babel/runtime-corejs2/helpers/esm/defineProperty.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_7__);
+/* harmony import */ var _ContactUs_scss__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./ContactUs.scss */ "./components/ContactUs/ContactUs.scss");
+/* harmony import */ var _ContactUs_scss__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(_ContactUs_scss__WEBPACK_IMPORTED_MODULE_8__);
+
+
+
+
+
+
+
+var _jsxFileName = "/Users/brennanbatalla/Projects/WebApps/linguart/linguartech-company-website/components/ContactUs/ContactUs.js";
+var __jsx = react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement;
+
+
+
+var ContactUs =
+/*#__PURE__*/
+function (_Component) {
+  Object(_babel_runtime_corejs2_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_5__["default"])(ContactUs, _Component);
+
+  function ContactUs() {
+    var _getPrototypeOf2;
+
+    var _this;
+
+    Object(_babel_runtime_corejs2_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__["default"])(this, ContactUs);
+
+    for (var _len = arguments.length, args = new Array(_len), _key = 0; _key < _len; _key++) {
+      args[_key] = arguments[_key];
+    }
+
+    _this = Object(_babel_runtime_corejs2_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_2__["default"])(this, (_getPrototypeOf2 = Object(_babel_runtime_corejs2_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3__["default"])(ContactUs)).call.apply(_getPrototypeOf2, [this].concat(args)));
+
+    Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_6__["default"])(Object(_babel_runtime_corejs2_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_4__["default"])(_this), "state", {});
+
+    return _this;
+  }
+
+  Object(_babel_runtime_corejs2_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__["default"])(ContactUs, [{
+    key: "componentDidMount",
+    value: function componentDidMount() {}
+  }, {
+    key: "render",
+    value: function render() {
+      return __jsx("div", {
+        id: "ContactUs",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 14
+        },
+        __self: this
+      }, __jsx("h1", {
+        className: "text-align-center font-weight-light color-primary",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 16
+        },
+        __self: this
+      }, "Start Here!"));
+    }
+  }]);
+
+  return ContactUs;
+}(react__WEBPACK_IMPORTED_MODULE_7__["Component"]);
+
+/* harmony default export */ __webpack_exports__["default"] = (ContactUs);
 
 /***/ }),
 
@@ -386,6 +521,279 @@ var Header = function Header() {
 
 /***/ }),
 
+/***/ "./components/Steps/StepsComponent.js":
+/*!********************************************!*\
+  !*** ./components/Steps/StepsComponent.js ***!
+  \********************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _StepsComponent_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./StepsComponent.scss */ "./components/Steps/StepsComponent.scss");
+/* harmony import */ var _StepsComponent_scss__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_StepsComponent_scss__WEBPACK_IMPORTED_MODULE_1__);
+var _jsxFileName = "/Users/brennanbatalla/Projects/WebApps/linguart/linguartech-company-website/components/Steps/StepsComponent.js";
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+
+
+var StepsComponent = function StepsComponent(_ref) {
+  var _ref$steps = _ref.steps,
+      steps = _ref$steps === void 0 ? [] : _ref$steps;
+  return __jsx("div", {
+    id: "StepsComponent",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 5
+    },
+    __self: this
+  }, __jsx("h1", {
+    className: "text-align-center font-weight-light color-primary",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 7
+    },
+    __self: this
+  }, "How it Works"), __jsx("div", {
+    className: "stepsContainer",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 9
+    },
+    __self: this
+  }, steps.map(function (step, id) {
+    return __jsx("div", {
+      className: "layout",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 13
+      },
+      __self: this
+    }, __jsx("div", {
+      key: id,
+      className: "stepContainer",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 14
+      },
+      __self: this
+    }, __jsx("img", {
+      className: "stepIcon",
+      src: step.icon,
+      alt: step.title,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 16
+      },
+      __self: this
+    }), __jsx("div", {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 17
+      },
+      __self: this
+    }, __jsx("h2", {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 18
+      },
+      __self: this
+    }, step.title), __jsx("p", {
+      className: "stepDescription",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 20
+      },
+      __self: this
+    }, step.description))));
+  })));
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (StepsComponent);
+
+/***/ }),
+
+/***/ "./components/Team/Team.js":
+/*!*********************************!*\
+  !*** ./components/Team/Team.js ***!
+  \*********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_objectDestructuringEmpty__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/objectDestructuringEmpty */ "./node_modules/@babel/runtime-corejs2/helpers/esm/objectDestructuringEmpty.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/classCallCheck */ "./node_modules/@babel/runtime-corejs2/helpers/esm/classCallCheck.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/createClass */ "./node_modules/@babel/runtime-corejs2/helpers/esm/createClass.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/possibleConstructorReturn */ "./node_modules/@babel/runtime-corejs2/helpers/esm/possibleConstructorReturn.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/getPrototypeOf */ "./node_modules/@babel/runtime-corejs2/helpers/esm/getPrototypeOf.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/assertThisInitialized */ "./node_modules/@babel/runtime-corejs2/helpers/esm/assertThisInitialized.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/inherits */ "./node_modules/@babel/runtime-corejs2/helpers/esm/inherits.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/defineProperty */ "./node_modules/@babel/runtime-corejs2/helpers/esm/defineProperty.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_8__);
+/* harmony import */ var _Team_scss__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./Team.scss */ "./components/Team/Team.scss");
+/* harmony import */ var _Team_scss__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(_Team_scss__WEBPACK_IMPORTED_MODULE_9__);
+
+
+
+
+
+
+
+
+var _jsxFileName = "/Users/brennanbatalla/Projects/WebApps/linguart/linguartech-company-website/components/Team/Team.js";
+var __jsx = react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement;
+
+
+
+var Team =
+/*#__PURE__*/
+function (_Component) {
+  Object(_babel_runtime_corejs2_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_6__["default"])(Team, _Component);
+
+  function Team() {
+    var _getPrototypeOf2;
+
+    var _this;
+
+    Object(_babel_runtime_corejs2_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_1__["default"])(this, Team);
+
+    for (var _len = arguments.length, args = new Array(_len), _key = 0; _key < _len; _key++) {
+      args[_key] = arguments[_key];
+    }
+
+    _this = Object(_babel_runtime_corejs2_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_3__["default"])(this, (_getPrototypeOf2 = Object(_babel_runtime_corejs2_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_4__["default"])(Team)).call.apply(_getPrototypeOf2, [this].concat(args)));
+
+    Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_7__["default"])(Object(_babel_runtime_corejs2_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_5__["default"])(_this), "state", {});
+
+    return _this;
+  }
+
+  Object(_babel_runtime_corejs2_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_2__["default"])(Team, [{
+    key: "componentDidMount",
+    value: function componentDidMount() {}
+  }, {
+    key: "render",
+    value: function render() {
+      return __jsx("div", {
+        id: "TeamComponent",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 14
+        },
+        __self: this
+      }, __jsx("h1", {
+        className: "color-white text-align-center font-weight-light margin-0",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 16
+        },
+        __self: this
+      }, "Our Team"), __jsx("div", {
+        className: "grid",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 18
+        },
+        __self: this
+      }, __jsx("div", {
+        className: "cardContainer",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 20
+        },
+        __self: this
+      }, __jsx("div", {
+        className: "personImage personImage-ceo",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 22
+        },
+        __self: this
+      }), __jsx("h2", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 24
+        },
+        __self: this
+      }, "Feifei Zhang"), __jsx("h4", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 25
+        },
+        __self: this
+      }, "Founder and CEO")), __jsx("div", {
+        className: "cardContainer",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 29
+        },
+        __self: this
+      }, __jsx("div", {
+        className: "personImage personImage-cto",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 31
+        },
+        __self: this
+      }), __jsx("h2", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 33
+        },
+        __self: this
+      }, "Brennan Batalla"), __jsx("h4", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 34
+        },
+        __self: this
+      }, "Co-Founder and CTO")), __jsx("div", {
+        className: "cardContainer",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 38
+        },
+        __self: this
+      }, __jsx("div", {
+        className: "personImage personImage-advisor",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 40
+        },
+        __self: this
+      }), __jsx("h2", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 42
+        },
+        __self: this
+      }, "Randy Eager"), __jsx("h4", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 43
+        },
+        __self: this
+      }, "Co-Founder and Advisor"))));
+    }
+  }]);
+
+  return Team;
+}(react__WEBPACK_IMPORTED_MODULE_8__["Component"]);
+
+function mapStateToProps(_ref) {
+  Object(_babel_runtime_corejs2_helpers_esm_objectDestructuringEmpty__WEBPACK_IMPORTED_MODULE_0__["default"])(_ref);
+
+  return {};
+}
+
+/* harmony default export */ __webpack_exports__["default"] = (Team);
+
+/***/ }),
+
 /***/ "./components/Toolbar/Toolbar.js":
 /*!***************************************!*\
   !*** ./components/Toolbar/Toolbar.js ***!
@@ -529,20 +937,6 @@ function (_Component) {
 }(react__WEBPACK_IMPORTED_MODULE_9__["Component"]);
 
 /* harmony default export */ __webpack_exports__["default"] = (Toolbar);
-
-/***/ }),
-
-/***/ "./constants.js":
-/*!**********************!*\
-  !*** ./constants.js ***!
-  \**********************/
-/*! exports provided: APP_NAME */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "APP_NAME", function() { return APP_NAME; });
-var APP_NAME = "linguartech";
 
 /***/ }),
 
@@ -993,6 +1387,22 @@ function _inherits(subClass, superClass) {
     }
   });
   if (superClass) Object(_setPrototypeOf__WEBPACK_IMPORTED_MODULE_1__["default"])(subClass, superClass);
+}
+
+/***/ }),
+
+/***/ "./node_modules/@babel/runtime-corejs2/helpers/esm/objectDestructuringEmpty.js":
+/*!*************************************************************************************!*\
+  !*** ./node_modules/@babel/runtime-corejs2/helpers/esm/objectDestructuringEmpty.js ***!
+  \*************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return _objectDestructuringEmpty; });
+function _objectDestructuringEmpty(obj) {
+  if (obj == null) throw new TypeError("Cannot destructure undefined");
 }
 
 /***/ }),
@@ -10400,6 +10810,17 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_Header_Header__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../components/Header/Header */ "./components/Header/Header.js");
 /* harmony import */ var _components_About_About__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ../components/About/About */ "./components/About/About.js");
 /* harmony import */ var _components_EnterEmail_EnterEmail__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ../components/EnterEmail/EnterEmail */ "./components/EnterEmail/EnterEmail.js");
+/* harmony import */ var _components_Team_Team__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ../components/Team/Team */ "./components/Team/Team.js");
+/* harmony import */ var _components_Steps_StepsComponent__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ../components/Steps/StepsComponent */ "./components/Steps/StepsComponent.js");
+/* harmony import */ var _assets_icons_phone_24px_svg__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ../assets/icons/phone-24px.svg */ "./assets/icons/phone-24px.svg");
+/* harmony import */ var _assets_icons_phone_24px_svg__WEBPACK_IMPORTED_MODULE_16___default = /*#__PURE__*/__webpack_require__.n(_assets_icons_phone_24px_svg__WEBPACK_IMPORTED_MODULE_16__);
+/* harmony import */ var _assets_icons_submit_24px_svg__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ../assets/icons/submit-24px.svg */ "./assets/icons/submit-24px.svg");
+/* harmony import */ var _assets_icons_submit_24px_svg__WEBPACK_IMPORTED_MODULE_17___default = /*#__PURE__*/__webpack_require__.n(_assets_icons_submit_24px_svg__WEBPACK_IMPORTED_MODULE_17__);
+/* harmony import */ var _assets_icons_people_24px_svg__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ../assets/icons/people-24px.svg */ "./assets/icons/people-24px.svg");
+/* harmony import */ var _assets_icons_people_24px_svg__WEBPACK_IMPORTED_MODULE_18___default = /*#__PURE__*/__webpack_require__.n(_assets_icons_people_24px_svg__WEBPACK_IMPORTED_MODULE_18__);
+/* harmony import */ var _assets_icons_airplane_24px_svg__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! ../assets/icons/airplane-24px.svg */ "./assets/icons/airplane-24px.svg");
+/* harmony import */ var _assets_icons_airplane_24px_svg__WEBPACK_IMPORTED_MODULE_19___default = /*#__PURE__*/__webpack_require__.n(_assets_icons_airplane_24px_svg__WEBPACK_IMPORTED_MODULE_19__);
+/* harmony import */ var _components_ContactUs_ContactUs__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! ../components/ContactUs/ContactUs */ "./components/ContactUs/ContactUs.js");
 
 
 
@@ -10409,6 +10830,13 @@ __webpack_require__.r(__webpack_exports__);
 
 var _jsxFileName = "/Users/brennanbatalla/Projects/WebApps/linguart/linguartech-company-website/pages/index.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement;
+
+
+
+
+
+
+
 
 
 
@@ -10439,6 +10867,24 @@ function (_Component) {
       email: ""
     });
 
+    Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_6__["default"])(Object(_babel_runtime_corejs2_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_4__["default"])(_this), "steps", [{
+      icon: _assets_icons_phone_24px_svg__WEBPACK_IMPORTED_MODULE_16___default.a,
+      title: "Meet with us",
+      description: "When you meet with us, we will go over all the different programs and locations we have to offer.  You will be able to select from over 20 different programs in over 5 countries.  We will collect all the information required for the program and Visa."
+    }, {
+      icon: _assets_icons_submit_24px_svg__WEBPACK_IMPORTED_MODULE_17___default.a,
+      title: "Submit Applications",
+      description: "Once you choose a program, we will then submit the application and all the required information.  We will also then help submit all your paper work required to gain a visa for your chosen destination."
+    }, {
+      icon: _assets_icons_people_24px_svg__WEBPACK_IMPORTED_MODULE_18___default.a,
+      title: "Interview Preparation",
+      description: "After being accepted by the university, you will have one last step before you can attend the program.  In order to receive the Visa for the host country, you must interview. We will help prepare you for this so you do not have to worry!"
+    }, {
+      icon: _assets_icons_airplane_24px_svg__WEBPACK_IMPORTED_MODULE_19___default.a,
+      title: "Pack your bags",
+      description: "Last step you must take before your program begins is to PACK YOUR BAGS!  Next your off on to your experience of a lifetime trip!"
+    }]);
+
     Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_6__["default"])(Object(_babel_runtime_corejs2_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_4__["default"])(_this), "emailOnchange", function (event) {
       _this.setState({
         email: event.target.value
@@ -10456,19 +10902,19 @@ function (_Component) {
         id: "Index",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 22
+          lineNumber: 48
         },
         __self: this
       }, __jsx(_components_Toolbar_Toolbar__WEBPACK_IMPORTED_MODULE_8__["default"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 23
+          lineNumber: 49
         },
         __self: this
       }), __jsx(_components_Header_Header__WEBPACK_IMPORTED_MODULE_11__["default"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 25
+          lineNumber: 51
         },
         __self: this
       }), __jsx(_components_EnterEmail_EnterEmail__WEBPACK_IMPORTED_MODULE_13__["default"], {
@@ -10476,13 +10922,32 @@ function (_Component) {
         value: email,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 27
+          lineNumber: 53
         },
         __self: this
       }), __jsx(_components_About_About__WEBPACK_IMPORTED_MODULE_12__["default"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 29
+          lineNumber: 55
+        },
+        __self: this
+      }), __jsx(_components_Team_Team__WEBPACK_IMPORTED_MODULE_14__["default"], {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 57
+        },
+        __self: this
+      }), __jsx(_components_Steps_StepsComponent__WEBPACK_IMPORTED_MODULE_15__["default"], {
+        steps: this.steps,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 59
+        },
+        __self: this
+      }), __jsx(_components_ContactUs_ContactUs__WEBPACK_IMPORTED_MODULE_20__["default"], {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 61
         },
         __self: this
       }));
