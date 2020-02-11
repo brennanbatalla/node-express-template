@@ -17,10 +17,34 @@
   align-items: center;
   justify-content: flex-start;
   padding: 0 10%; }
+  #ToolbarCmpnt #menuIconButton {
+    display: none;
+    width: 50px;
+    padding: 0; }
+  #ToolbarCmpnt #menuIcon {
+    margin-right: 16px;
+    min-width: 34px; }
+  #ToolbarCmpnt .navOptionActive {
+    font-weight: bold;
+    border-bottom: white solid 4px;
+    border-radius: 5px;
+    margin-bottom: -5px; }
+  #ToolbarCmpnt .navOption:last-child {
+    margin-right: 0; }
+  #ToolbarCmpnt .navOption {
+    margin: 0 16px;
+    padding: 0 8px;
+    display: block; }
+    #ToolbarCmpnt .navOption h3 {
+      font-weight: lighter;
+      color: white;
+      margin: 0;
+      cursor: pointer; }
   #ToolbarCmpnt #name {
     font-size: 28px;
     margin: 0;
-    color: white; }
+    color: white;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.25); }
   #ToolbarCmpnt #toolbarContainer {
     font-size: 20px;
     color: white;
@@ -45,6 +69,16 @@
     font-size: 16px;
     font-weight: 400;
     color: white; }
+  @media (max-width: 1000px) {
+    #ToolbarCmpnt #name {
+      font-size: 24px; }
+    #ToolbarCmpnt .navOption {
+      padding: 0; } }
+  @media (max-width: 800px) {
+    #ToolbarCmpnt #menuIconButton {
+      display: block; }
+    #ToolbarCmpnt .navOption {
+      display: none; } }
   @media (max-width: 600px) {
     #ToolbarCmpnt {
       padding: 0 5%; } }
@@ -70,7 +104,13 @@ body {
 p {
   font-family: 'Lato', sans-serif; }
 
+.flex-direction-column {
+  display: flex;
+  flex: 1;
+  flex-direction: column; }
+
 .flex-1 {
+  display: flex;
   flex: 1; }
 
 .color-white {
@@ -92,6 +132,82 @@ p {
 .color-primary {
   color: #31AFD4; }
 
+.width-100-p {
+  width: 100%; }
+
+.input:focus {
+  border-color: #31AFD4; }
+
+.input {
+  box-sizing: border-box;
+  display: block;
+  flex: 1;
+  margin-right: 16px;
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  line-height: 2;
+  color: rgba(0, 0, 0, 0.87);
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid rgba(0, 0, 0, 0.14);
+  border-radius: .25rem;
+  transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+  outline: none;
+  caret-color: #d46231; }
+
+.input-select:focus {
+  border-color: #31AFD4; }
+
+.input-select {
+  box-sizing: border-box;
+  display: block;
+  height: 46px;
+  width: 100px;
+  margin-right: 16px;
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  line-height: 2;
+  color: rgba(0, 0, 0, 0.87);
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid rgba(0, 0, 0, 0.14);
+  border-radius: .25rem;
+  transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+  outline: none;
+  caret-color: #d46231; }
+
+.standard-button:hover {
+  box-shadow: 0 2px 4px -1px rgba(0, 0, 0, 0.2), 0 4px 5px 0px rgba(0, 0, 0, 0.14), 0px 1px 10px 0px rgba(0, 0, 0, 0.12);
+  background-color: #29a0c3;
+  transition: .2s; }
+
+.standard-button:active {
+  box-shadow: 0 5px 5px -3px rgba(0, 0, 0, 0.2), 0px 8px 10px 1px rgba(0, 0, 0, 0.14), 0px 3px 14px 2px rgba(0, 0, 0, 0.12);
+  background-color: #248fae;
+  transition: .1s; }
+
+.standard-button {
+  background: #31AFD4;
+  color: white;
+  box-shadow: 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 1px 5px 0px rgba(0, 0, 0, 0.12);
+  border-radius: 50px;
+  padding: 15px 45px;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 400;
+  text-align: center;
+  line-height: 1.5;
+  outline: none;
+  cursor: pointer;
+  border: none;
+  transition: .3s; }
+
+.standard-button[disabled] {
+  background-color: #d5d5d5 !important;
+  color: rgba(0, 0, 0, 0.38);
+  box-shadow: 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 1px 5px 0px rgba(0, 0, 0, 0.12) !important;
+  cursor: default; }
+
 #Index {
   padding-bottom: 32px; }
 
@@ -99,13 +215,15 @@ p {
   box-sizing: border-box;
   padding: 100px 10% 0;
   background-color: #31AFD4;
+  box-shadow: 0 10px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   height: 500px; }
   #HeaderComponent .headerTitle {
     font-size: 3em;
     line-height: 1em;
     color: white;
     font-weight: 300;
-    margin: 32px 0 0; }
+    margin: 32px 0 0;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.25); }
   #HeaderComponent .headerSubheader {
     color: white;
     max-width: 400px;
@@ -164,13 +282,14 @@ p {
     margin-top: 46px; }
   #HeaderComponent .contactUsButton:hover {
     box-shadow: 0 2px 4px -1px rgba(0, 0, 0, 0.2), 0 4px 5px 0px rgba(0, 0, 0, 0.14), 0px 1px 10px 0px rgba(0, 0, 0, 0.12);
-    background-color: #dd825b; }
+    background-color: #c35729;
+    transition: .2s; }
   #HeaderComponent .contactUsButton:active {
     box-shadow: 0 5px 5px -3px rgba(0, 0, 0, 0.2), 0px 8px 10px 1px rgba(0, 0, 0, 0.14), 0px 3px 14px 2px rgba(0, 0, 0, 0.12);
-    background-color: #c35729;
-    transition: background-color .1s; }
+    background-color: #ae4e24;
+    transition: .1s; }
   #HeaderComponent .contactUsButton {
-    transition: background-color .3s;
+    transition: .3s;
     background: #d46231;
     color: white;
     box-shadow: 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 1px 5px 0px rgba(0, 0, 0, 0.12);
@@ -382,12 +501,12 @@ p {
     caret-color: #d46231; }
   #EnterEmail .emailButton:hover {
     box-shadow: 0 2px 4px -1px rgba(0, 0, 0, 0.2), 0 4px 5px 0px rgba(0, 0, 0, 0.14), 0px 1px 10px 0px rgba(0, 0, 0, 0.12);
-    background-color: #5bbfdd;
-    transition: background-color .3s; }
+    background-color: #29a0c3;
+    transition: .2s; }
   #EnterEmail .emailButton:active {
     box-shadow: 0 5px 5px -3px rgba(0, 0, 0, 0.2), 0px 8px 10px 1px rgba(0, 0, 0, 0.14), 0px 3px 14px 2px rgba(0, 0, 0, 0.12);
-    background-color: #29a0c3;
-    transition: background-color .1s; }
+    background-color: #248fae;
+    transition: .1s; }
   #EnterEmail .emailButton {
     background: #31AFD4;
     color: white;
@@ -402,7 +521,7 @@ p {
     outline: none;
     cursor: pointer;
     border: none;
-    transition: background-color .3s; }
+    transition: .3s; }
   #EnterEmail .emailButton[disabled] {
     background-color: #d5d5d5 !important;
     color: rgba(0, 0, 0, 0.38);
@@ -422,7 +541,8 @@ p {
 
 #TeamComponent {
   padding: 32px 10% 80px;
-  background-color: #31AFD4; }
+  background-color: #31AFD4;
+  box-shadow: 0 10px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); }
   #TeamComponent .grid {
     margin-top: 50px;
     display: flex;
@@ -464,13 +584,14 @@ p {
     margin-bottom: 0;
     color: #31AFD4; }
   #TeamComponent h4 {
-    font-weight: 100; }
+    font-weight: 100;
+    color: #d46231; }
   @media (max-width: 600px) {
     #TeamComponent {
       padding: 32px 5%; } }
 
 #StepsComponent {
-  margin: 32px 10%; }
+  margin: 50px 10%; }
   #StepsComponent .stepsContainer {
     display: flex;
     flex-direction: column; }
@@ -514,9 +635,57 @@ p {
   padding: 32px 10%;
   background-color: #f3f3f3;
   border-top: 2px solid #d46231; }
+  #ContactUs .form {
+    margin: 0 auto;
+    max-width: 700px;
+    width: 90%; }
+  #ContactUs .inputLabel {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 22px; }
+    #ContactUs .inputLabel label {
+      width: 170px;
+      text-align: right;
+      margin-right: 16px;
+      font-size: 20px;
+      color: rgba(0, 0, 0, 0.58);
+      height: 23px; }
+    #ContactUs .inputLabel label[required]:after {
+      color: #d51a00;
+      content: " *"; }
+  #ContactUs .formError {
+    color: #d51a00;
+    position: absolute;
+    font-size: 12px;
+    padding-left: 14px; }
+  #ContactUs .inputHint {
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.86);
+    padding-left: 14px;
+    position: absolute; }
+  #ContactUs #submitButton {
+    width: calc(100% - 170px);
+    display: block;
+    margin: 16px 0 16px auto; }
   @media (max-width: 600px) {
     #ContactUs {
-      padding: 32px 10%; } }
+      padding: 32px 5%; }
+      #ContactUs .inputLabel {
+        flex-direction: column;
+        width: 100%; }
+        #ContactUs .inputLabel .flex-direction-column {
+          width: 100%; }
+        #ContactUs .inputLabel .input {
+          width: 100%;
+          margin-right: 0; }
+        #ContactUs .inputLabel label {
+          text-align: left;
+          width: 100%;
+          margin: 0;
+          padding-left: 25px; }
+      #ContactUs #submitButton {
+        width: 100%; } }
 
 
 /*# sourceMappingURL=styles.chunk.css.map*/
