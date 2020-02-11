@@ -15,7 +15,7 @@ require('./database/config/connectionPool');
 app.use(morgan("common"));
 app.use(helmet());
 app.use(cors({origin: true, credentials: true}));
-app.use(bodyParser({limit: '50mb'}));
+app.use(bodyParser({limit: '60mb'}));
 app.use(bodyParser.urlencoded({extended: true}));
 app.use(bodyParser.json());
 app.use(compression());
