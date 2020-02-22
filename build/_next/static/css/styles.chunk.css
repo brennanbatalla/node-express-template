@@ -20,9 +20,20 @@
   #ToolbarCmpnt #menuIconButton {
     display: none;
     width: 50px;
-    padding: 0; }
-  #ToolbarCmpnt #menuIcon {
+    padding: 0;
+    background-color: transparent;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-radius: 60px;
+    height: 50px;
     margin-right: 16px;
+    outline: none; }
+    #ToolbarCmpnt #menuIconButton:Active {
+      background-color: black;
+      opacity: .2; }
+  #ToolbarCmpnt #menuIcon {
     min-width: 34px; }
   #ToolbarCmpnt .navOptionActive {
     font-weight: bold;
@@ -76,7 +87,7 @@
       padding: 0; } }
   @media (max-width: 800px) {
     #ToolbarCmpnt #menuIconButton {
-      display: block; }
+      display: flex; }
     #ToolbarCmpnt .navOption {
       display: none; } }
   @media (max-width: 600px) {
@@ -207,6 +218,12 @@ p {
   color: rgba(0, 0, 0, 0.38);
   box-shadow: 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 1px 5px 0px rgba(0, 0, 0, 0.12) !important;
   cursor: default; }
+
+.display-block {
+  display: block; }
+
+.display-none {
+  display: none; }
 
 #Index {
   padding-bottom: 32px; }
@@ -634,7 +651,8 @@ p {
 #ContactUs {
   padding: 32px 10%;
   background-color: #f3f3f3;
-  border-top: 2px solid #d46231; }
+  border-top: 2px solid #d46231;
+  height: 100vh; }
   #ContactUs .form {
     margin: 0 auto;
     max-width: 700px;
@@ -686,6 +704,79 @@ p {
           padding-left: 25px; }
       #ContactUs #submitButton {
         width: 100%; } }
+
+#SidenavCmpnt {
+  max-width: 250px;
+  display: flex;
+  position: fixed;
+  height: 100vh;
+  z-index: 15; }
+  #SidenavCmpnt #sidenavTint {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+    cursor: pointer; }
+  #SidenavCmpnt #sidenavContent {
+    min-width: 300px;
+    flex-direction: column;
+    background-color: #f1f1f1;
+    z-index: 11;
+    display: flex;
+    left: 0;
+    transition: transform 0.5s cubic-bezier(0, 0.52, 0, 1); }
+  #SidenavCmpnt .navOpen {
+    transform: translate3d(0vw, 0, 0); }
+  #SidenavCmpnt .navClosed {
+    transform: translate3d(-300px, 0, 0); }
+  #SidenavCmpnt .sidenavButton {
+    color: rgba(0, 0, 0, 0.56);
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+    height: 40px;
+    font-size: 1.2em;
+    border: none;
+    outline: none;
+    background-color: transparent; }
+    #SidenavCmpnt .sidenavButton:active {
+      background-color: #0000000f; }
+  #SidenavCmpnt .selectedSidenavButton {
+    border: 1px solid #1b6c84;
+    background-color: #85d0e6;
+    color: #1b6c84; }
+    #SidenavCmpnt .selectedSidenavButton:active {
+      background-color: #5bbfdd; }
+  #SidenavCmpnt .sidenavButtonIcon {
+    color: inherit;
+    padding-right: 32px;
+    font-size: 1.4em; }
+  #SidenavCmpnt #sidenavFooter {
+    padding: 16px;
+    font-weight: 100;
+    font-size: smaller;
+    display: flex;
+    flex-direction: row; }
+    #SidenavCmpnt #sidenavFooter span {
+      color: #31AFD4;
+      margin-right: 32px;
+      cursor: pointer; }
+  #SidenavCmpnt .navButton {
+    width: 100%; }
+  @media (max-width: 800px) {
+    #SidenavCmpnt {
+      display: flex; }
+      #SidenavCmpnt #sidenavContent {
+        position: absolute;
+        height: 100%;
+        box-shadow: 0 5px 5px -3px rgba(0, 0, 0, 0.2), 0 8px 10px 1px rgba(0, 0, 0, 0.14), 0 3px 14px 2px rgba(0, 0, 0, 0.12) !important; } }
+  @media (max-width: 400px) {
+    #SidenavCmpnt #sidenavContent {
+      min-width: 50%; } }
 
 
 /*# sourceMappingURL=styles.chunk.css.map*/
