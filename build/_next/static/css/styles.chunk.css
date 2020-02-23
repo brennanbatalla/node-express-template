@@ -225,8 +225,6 @@ p {
 .display-none {
   display: none; }
 
-#Index {
-  padding-bottom: 32px; }
 
 #HeaderComponent {
   box-sizing: border-box;
@@ -652,7 +650,7 @@ p {
   padding: 32px 10%;
   background-color: #f3f3f3;
   border-top: 2px solid #d46231;
-  height: 100vh; }
+  min-height: 80vh; }
   #ContactUs .form {
     margin: 0 auto;
     max-width: 700px;
@@ -706,7 +704,6 @@ p {
         width: 100%; } }
 
 #SidenavCmpnt {
-  max-width: 250px;
   display: flex;
   position: fixed;
   height: 100vh;
@@ -721,10 +718,10 @@ p {
     cursor: pointer; }
   #SidenavCmpnt #sidenavContent {
     min-width: 300px;
+    display: none;
     flex-direction: column;
     background-color: #f1f1f1;
     z-index: 11;
-    display: flex;
     left: 0;
     transition: transform 0.5s cubic-bezier(0, 0.52, 0, 1); }
   #SidenavCmpnt .navOpen {
@@ -771,12 +768,32 @@ p {
     #SidenavCmpnt {
       display: flex; }
       #SidenavCmpnt #sidenavContent {
+        display: flex;
         position: absolute;
         height: 100%;
         box-shadow: 0 5px 5px -3px rgba(0, 0, 0, 0.2), 0 8px 10px 1px rgba(0, 0, 0, 0.14), 0 3px 14px 2px rgba(0, 0, 0, 0.12) !important; } }
   @media (max-width: 400px) {
     #SidenavCmpnt #sidenavContent {
       min-width: 50%; } }
+
+#FooterComponent {
+  background-color: #1b6c84;
+  padding: 32px 10%; }
+  #FooterComponent #languageSelect {
+    font-size: 1.1rem;
+    color: rgba(0, 0, 0, 0.87);
+    background-color: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.14);
+    border-radius: .25rem;
+    outline: none;
+    width: 150px;
+    height: 40px; }
+  #FooterComponent #languageSelectLabel {
+    color: white;
+    margin-bottom: 5px; }
+  @media (max-width: 600px) {
+    #FooterComponent {
+      padding: 32px 5%; } }
 
 
 /*# sourceMappingURL=styles.chunk.css.map*/

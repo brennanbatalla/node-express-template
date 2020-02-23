@@ -35,14 +35,14 @@ module.exports = "data:image/svg+xml;base64,PHN2ZyAgZmlsbD0iI0ZGRiIgeG1sbnM9Imh0
 
 /***/ }),
 
-/***/ "./assets/icons/heart-24px.svg":
-/*!*************************************!*\
-  !*** ./assets/icons/heart-24px.svg ***!
-  \*************************************/
+/***/ "./assets/icons/laptop-24px.svg":
+/*!**************************************!*\
+  !*** ./assets/icons/laptop-24px.svg ***!
+  \**************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjMzFBRkQ0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgd2lkdGg9IjI0Ij4KICAgIDxwYXRoIGQ9Ik0wIDBoMjR2MjRIMHoiIGZpbGw9Im5vbmUiLz4KICAgIDxwYXRoIGQ9Ik0xMiAyMS4zNWwtMS40NS0xLjMyQzUuNCAxNS4zNiAyIDEyLjI4IDIgOC41IDIgNS40MiA0LjQyIDMgNy41IDNjMS43NCAwIDMuNDEuODEgNC41IDIuMDlDMTMuMDkgMy44MSAxNC43NiAzIDE2LjUgMyAxOS41OCAzIDIyIDUuNDIgMjIgOC41YzAgMy43OC0zLjQgNi44Ni04LjU1IDExLjU0TDEyIDIxLjM1eiIvPgo8L3N2Zz4="
+module.exports = "data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjMzFBRkQ0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGVuYWJsZS1iYWNrZ3JvdW5kPSJuZXcgMCAwIDI0IDI0IiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiCiAgICAgd2lkdGg9IjI0Ij4KICAgIDxnPgogICAgICAgIDxyZWN0IGZpbGw9Im5vbmUiIGhlaWdodD0iMjQiIHdpZHRoPSIyNCIgeD0iMCIvPgogICAgPC9nPgogICAgPGc+CiAgICAgICAgPGc+CiAgICAgICAgICAgIDxnPgogICAgICAgICAgICAgICAgPHBhdGggZD0iTTIwLDE4YzEuMSwwLDItMC45LDItMlY2YzAtMS4xLTAuOS0yLTItMkg0QzIuOSw0LDIsNC45LDIsNnYxMGMwLDEuMSwwLjksMiwyLDJIMHYyaDI0di0ySDIweiBNNCw2aDE2djEwSDRWNnoiLz4KICAgICAgICAgICAgPC9nPgogICAgICAgIDwvZz4KICAgIDwvZz4KPC9zdmc+"
 
 /***/ }),
 
@@ -76,6 +76,17 @@ module.exports = "data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjMzFBRkQ0IiB4bWxucz0i
 /***/ (function(module, exports) {
 
 module.exports = "data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjMzFBRkQ0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgd2lkdGg9IjI0Ij48cGF0aCBkPSJNMCAwaDI0djI0SDB6IiBmaWxsPSJub25lIi8+PHBhdGggZD0iTTIwIDE1LjVjLTEuMjUgMC0yLjQ1LS4yLTMuNTctLjU3LS4zNS0uMTEtLjc0LS4wMy0xLjAyLjI0bC0yLjIgMi4yYy0yLjgzLTEuNDQtNS4xNS0zLjc1LTYuNTktNi41OGwyLjItMi4yMWMuMjgtLjI3LjM2LS42Ni4yNS0xLjAxQzguNyA2LjQ1IDguNSA1LjI1IDguNSA0YzAtLjU1LS40NS0xLTEtMUg0Yy0uNTUgMC0xIC40NS0xIDEgMCA5LjM5IDcuNjEgMTcgMTcgMTcgLjU1IDAgMS0uNDUgMS0xdi0zLjVjMC0uNTUtLjQ1LTEtMS0xek0xMiAzdjEwbDMtM2g2VjNoLTl6Ii8+PC9zdmc+"
+
+/***/ }),
+
+/***/ "./assets/icons/search.svg":
+/*!*********************************!*\
+  !*** ./assets/icons/search.svg ***!
+  \*********************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjMzFBRkQ0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgd2lkdGg9IjI0Ij48cGF0aCBkPSJNMTUuNSAxNGgtLjc5bC0uMjgtLjI3QzE1LjQxIDEyLjU5IDE2IDExLjExIDE2IDkuNSAxNiA1LjkxIDEzLjA5IDMgOS41IDNTMyA1LjkxIDMgOS41IDUuOTEgMTYgOS41IDE2YzEuNjEgMCAzLjA5LS41OSA0LjIzLTEuNTdsLjI3LjI4di43OWw1IDQuOTlMMjAuNDkgMTlsLTQuOTktNXptLTYgMEM3LjAxIDE0IDUgMTEuOTkgNSA5LjVTNy4wMSA1IDkuNSA1IDE0IDcuMDEgMTQgOS41IDExLjk5IDE0IDkuNSAxNHoiLz48cGF0aCBkPSJNMCAwaDI0djI0SDB6IiBmaWxsPSJub25lIi8+PC9zdmc+"
 
 /***/ }),
 
@@ -130,10 +141,12 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _assets_icons_university_24px_svg__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_assets_icons_university_24px_svg__WEBPACK_IMPORTED_MODULE_3__);
 /* harmony import */ var _assets_icons_world_24px_svg__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../assets/icons/world-24px.svg */ "./assets/icons/world-24px.svg");
 /* harmony import */ var _assets_icons_world_24px_svg__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_assets_icons_world_24px_svg__WEBPACK_IMPORTED_MODULE_4__);
-/* harmony import */ var _assets_icons_heart_24px_svg__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../assets/icons/heart-24px.svg */ "./assets/icons/heart-24px.svg");
-/* harmony import */ var _assets_icons_heart_24px_svg__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_assets_icons_heart_24px_svg__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var _assets_icons_laptop_24px_svg__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../assets/icons/laptop-24px.svg */ "./assets/icons/laptop-24px.svg");
+/* harmony import */ var _assets_icons_laptop_24px_svg__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_assets_icons_laptop_24px_svg__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var _constants__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../constants */ "./constants.js");
 var _jsxFileName = "/Users/brennanbatalla/Projects/WebApps/linguart/linguartech-company-website/components/About/About.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
 
 
 
@@ -146,31 +159,50 @@ var About = function About() {
     id: "About",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 9
+      lineNumber: 10
     },
     __self: this
   }, __jsx("h1", {
     className: "header",
+    "ling-translate": "AboutSectionTitle",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 11
+      lineNumber: 12
     },
     __self: this
   }, "About Us"), __jsx("p", {
     className: "text",
+    "ling-translate": "AboutUsContentText",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 13
+      lineNumber: 14
     },
     __self: this
-  }, "Linguartech is a booking platform that connects international college students to worldwide short-term academic programs. We select the best of three different types of programs including immersion language learning programs, music and art programs, science and technology programs. We help students no matter who they are and where they come, they all have the same opportunity to reach to worldwide great programs."), __jsx("div", {
+  }, "Linguartech is an educational booking platform and an online learning center. We connect students to worldwide short-term academic programs by helping them go to the school in person or through an online offering. With Linguartech, you can find Language Learning, Music & Art, and Science & Technology programs. No matter who you are or where you live, you have the same opportunity to reach the best programs in the world."), __jsx("div", {
     className: "cardsContainer",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 19
+      lineNumber: 16
     },
     __self: this
   }, __jsx("div", {
+    className: "cardContainer",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 17
+    },
+    __self: this
+  }, __jsx(_Card_Card__WEBPACK_IMPORTED_MODULE_2__["default"], {
+    icon: _assets_icons_university_24px_svg__WEBPACK_IMPORTED_MODULE_3___default.a,
+    title: "Booking Platform",
+    translationKey: "AboutUsBookingPlatform",
+    description: "Linguartech is a booking platform!  You can find Language, Music & Art, and Science & Tech programs located in over 10 different countries.  With us, we can guarantee you the best prices out there.",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 18
+    },
+    __self: this
+  })), __jsx("div", {
     className: "cardContainer",
     __source: {
       fileName: _jsxFileName,
@@ -178,9 +210,10 @@ var About = function About() {
     },
     __self: this
   }, __jsx(_Card_Card__WEBPACK_IMPORTED_MODULE_2__["default"], {
-    icon: _assets_icons_university_24px_svg__WEBPACK_IMPORTED_MODULE_3___default.a,
-    title: "Booking Platform",
-    description: "Linguartech is a booking platform that connects international college students to worldwide short-term academic programs.",
+    icon: _assets_icons_world_24px_svg__WEBPACK_IMPORTED_MODULE_4___default.a,
+    title: "Global Network",
+    translationKey: "AboutUsGlobalNetwork",
+    description: "Linguartech has partnered with Colleges and Universities all over the world who are excited to accept new applicants.  Our partners are located in over 10 different countries with programs that fit the needs of any applicant!",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 21
@@ -194,28 +227,13 @@ var About = function About() {
     },
     __self: this
   }, __jsx(_Card_Card__WEBPACK_IMPORTED_MODULE_2__["default"], {
-    icon: _assets_icons_world_24px_svg__WEBPACK_IMPORTED_MODULE_4___default.a,
-    title: "Global Network",
-    description: "Linguartech has partnered with Colleges and Universities all over the world who are excited to accept new applicants.",
+    icon: _assets_icons_laptop_24px_svg__WEBPACK_IMPORTED_MODULE_5___default.a,
+    title: "Online Education",
+    translationKey: "AboutUsOnlineEducation",
+    description: "Linguartech\u2019s online learning center focuses on foreign language learning; we work with language experts to provide comprehensive courses designed for the best online experience.",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 25
-    },
-    __self: this
-  })), __jsx("div", {
-    className: "cardContainer",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 28
-    },
-    __self: this
-  }, __jsx(_Card_Card__WEBPACK_IMPORTED_MODULE_2__["default"], {
-    icon: _assets_icons_heart_24px_svg__WEBPACK_IMPORTED_MODULE_5___default.a,
-    title: "Customer Care",
-    description: "With Linguartech's caring staff, we help all our students with every step of the way, from applying to colleges managing their visa requirements.  We are always here to answer any questions whether it is over the phone or through email.",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 29
     },
     __self: this
   }))));
@@ -246,7 +264,8 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 var Card = function Card(_ref) {
   var title = _ref.title,
       description = _ref.description,
-      icon = _ref.icon;
+      icon = _ref.icon,
+      translationKey = _ref.translationKey;
   return __jsx("div", {
     id: "Card",
     __source: {
@@ -272,6 +291,7 @@ var Card = function Card(_ref) {
     __self: this
   }), __jsx("h2", {
     id: "title",
+    "ling-translate": translationKey,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 9
@@ -279,6 +299,7 @@ var Card = function Card(_ref) {
     __self: this
   }, title)), __jsx("p", {
     id: "description",
+    "ling-translate": translationKey + "Text",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 11
@@ -491,41 +512,44 @@ function (_Component) {
         __self: this
       }, __jsx("h1", {
         className: "text-align-center font-weight-light color-primary",
+        "ling-translate": "ContactUsSectionTitle",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 94
         },
         __self: this
-      }, "Start Here!"), __jsx("form", {
+      }, "Contact Us"), __jsx("form", {
         onSubmit: this.submitForm,
         className: "form",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 96
+          lineNumber: 97
         },
         __self: this
       }, __jsx("div", {
         className: "inputLabel",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 98
+          lineNumber: 99
         },
         __self: this
       }, __jsx("label", {
+        "ling-translate": "ContactUsFirstName",
         required: true,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 99
+          lineNumber: 100
         },
         __self: this
       }, "First Name"), __jsx("div", {
         className: "flex-direction-column",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 100
+          lineNumber: 101
         },
         __self: this
       }, __jsx("input", {
+        "ling-translate": "ContactUsFirstName",
         value: form.firstName,
         onChange: this.onFormChange,
         name: "firstName",
@@ -534,44 +558,47 @@ function (_Component) {
         type: "text",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 101
+          lineNumber: 102
         },
         __self: this
       }), __jsx("div", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 104
+          lineNumber: 105
         },
         __self: this
       }, __jsx("span", {
+        "ling-translate": "ContactUsFormError",
         className: "formError",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 105
+          lineNumber: 106
         },
         __self: this
       }, formErrors.firstName)))), __jsx("div", {
         className: "inputLabel",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 110
+          lineNumber: 111
         },
         __self: this
       }, __jsx("label", {
+        "ling-translate": "ContactUsLastName",
         required: true,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 111
+          lineNumber: 112
         },
         __self: this
       }, "Last Name"), __jsx("div", {
         className: "flex-direction-column",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 112
+          lineNumber: 113
         },
         __self: this
       }, __jsx("input", {
+        "ling-translate": "ContactUsLastName",
         value: form.lastName,
         onChange: this.onFormChange,
         name: "lastName",
@@ -580,44 +607,47 @@ function (_Component) {
         type: "text",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 113
+          lineNumber: 114
         },
         __self: this
       }), __jsx("div", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 116
+          lineNumber: 117
         },
         __self: this
       }, __jsx("span", {
+        "ling-translate": "ContactUsFormError",
         className: "formError",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 117
+          lineNumber: 118
         },
         __self: this
       }, formErrors.lastName)))), __jsx("div", {
         className: "inputLabel",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 122
+          lineNumber: 123
         },
         __self: this
       }, __jsx("label", {
+        "ling-translate": "ContactUsEmail",
         required: true,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 123
+          lineNumber: 124
         },
         __self: this
       }, "Email"), __jsx("div", {
         className: "flex-direction-column",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 124
+          lineNumber: 125
         },
         __self: this
       }, __jsx("input", {
+        "ling-translate": "ContactUsEmail",
         value: form.email,
         onChange: this.onFormChange,
         name: "email",
@@ -626,44 +656,47 @@ function (_Component) {
         type: "email",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 125
+          lineNumber: 126
         },
         __self: this
       }), __jsx("div", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 128
+          lineNumber: 129
         },
         __self: this
       }, __jsx("span", {
+        "ling-translate": "ContactUsFormError",
         className: "formError",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 129
+          lineNumber: 130
         },
         __self: this
       }, formErrors.email)))), __jsx("div", {
         className: "inputLabel",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 134
+          lineNumber: 135
         },
         __self: this
       }, __jsx("label", {
+        "ling-translate": "ContactUsPhoneNumber",
         required: true,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 135
+          lineNumber: 136
         },
         __self: this
       }, "Phone Number"), __jsx("div", {
         className: "flex-direction-column",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 136
+          lineNumber: 137
         },
         __self: this
       }, __jsx("input", {
+        "ling-translate": "ContactUsPhoneNumber",
         value: form.phoneNumber,
         onChange: this.onFormChange,
         name: "phoneNumber",
@@ -672,43 +705,46 @@ function (_Component) {
         type: "tel",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 137
+          lineNumber: 138
         },
         __self: this
       }), __jsx("div", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 140
+          lineNumber: 141
         },
         __self: this
       }, !formErrors.phoneNumber && __jsx("span", {
+        "ling-translate": "ContactUsPhoneNumberHint",
         className: "inputHint",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 142
+          lineNumber: 143
         },
         __self: this
       }, "Please include country code as well."), formErrors.phoneNumber && __jsx("span", {
+        "ling-translate": "ContactUsFormError",
         className: "formError",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 144
+          lineNumber: 145
         },
         __self: this
       }, formErrors.phoneNumber)))), __jsx("div", {
         className: "inputLabel",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 149
+          lineNumber: 150
         },
         __self: this
       }, __jsx("label", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 150
+          lineNumber: 151
         },
         __self: this
       }), __jsx("textarea", {
+        "ling-translate": "ContactUsAdditionalInfo",
         value: form.questions,
         onChange: this.onFormChange,
         name: "questions",
@@ -720,17 +756,18 @@ function (_Component) {
         },
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 151
+          lineNumber: 152
         },
         __self: this
       })), __jsx("button", {
+        "ling-translate": "SubmitButton",
         disabled: !formValidated,
         id: "submitButton",
         type: "submit",
         className: "standard-button",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 157
+          lineNumber: 158
         },
         __self: this
       }, "Submit")));
@@ -781,6 +818,7 @@ var EnterEmail = function EnterEmail(_ref) {
     __self: this
   }, __jsx("h3", {
     className: "subscribeText",
+    "ling-translate": "EmailSubscribe",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 7
@@ -799,6 +837,7 @@ var EnterEmail = function EnterEmail(_ref) {
     onChange: onChange,
     value: value,
     id: "input",
+    "ling-translate": "EmailSubscribeInput",
     placeholder: "Enter your Email",
     __source: {
       fileName: _jsxFileName,
@@ -808,6 +847,7 @@ var EnterEmail = function EnterEmail(_ref) {
   }), __jsx("button", {
     disabled: value === "",
     className: "emailButton",
+    "ling-translate": "EmailSubscribeButton",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 12
@@ -817,6 +857,154 @@ var EnterEmail = function EnterEmail(_ref) {
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (EnterEmail);
+
+/***/ }),
+
+/***/ "./components/Footer/Footer.js":
+/*!*************************************!*\
+  !*** ./components/Footer/Footer.js ***!
+  \*************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/classCallCheck */ "./node_modules/@babel/runtime-corejs2/helpers/esm/classCallCheck.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/createClass */ "./node_modules/@babel/runtime-corejs2/helpers/esm/createClass.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/possibleConstructorReturn */ "./node_modules/@babel/runtime-corejs2/helpers/esm/possibleConstructorReturn.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/getPrototypeOf */ "./node_modules/@babel/runtime-corejs2/helpers/esm/getPrototypeOf.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/assertThisInitialized */ "./node_modules/@babel/runtime-corejs2/helpers/esm/assertThisInitialized.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/inherits */ "./node_modules/@babel/runtime-corejs2/helpers/esm/inherits.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/defineProperty */ "./node_modules/@babel/runtime-corejs2/helpers/esm/defineProperty.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_7__);
+/* harmony import */ var _Footer_scss__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./Footer.scss */ "./components/Footer/Footer.scss");
+/* harmony import */ var _Footer_scss__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(_Footer_scss__WEBPACK_IMPORTED_MODULE_8__);
+/* harmony import */ var _constants__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../../constants */ "./constants.js");
+/* harmony import */ var _translate__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../../translate */ "./translate.js");
+
+
+
+
+
+
+
+var _jsxFileName = "/Users/brennanbatalla/Projects/WebApps/linguart/linguartech-company-website/components/Footer/Footer.js";
+var __jsx = react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement;
+
+
+
+
+
+var Footer =
+/*#__PURE__*/
+function (_Component) {
+  Object(_babel_runtime_corejs2_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_5__["default"])(Footer, _Component);
+
+  function Footer(props) {
+    var _this;
+
+    Object(_babel_runtime_corejs2_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__["default"])(this, Footer);
+
+    _this = Object(_babel_runtime_corejs2_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_2__["default"])(this, Object(_babel_runtime_corejs2_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3__["default"])(Footer).call(this, props));
+
+    Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_6__["default"])(Object(_babel_runtime_corejs2_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_4__["default"])(_this), "state", {
+      language: "en",
+      availableLanguages: [{
+        code: "en",
+        title: "English"
+      }, {
+        code: "zh",
+        title: "Chinese"
+      }],
+      languageCodes: {
+        "en": "en",
+        "en-US": "en",
+        "zh": "zh",
+        "zh-hk": "zh",
+        "zh-sg": "zh",
+        "zh-tw": "zh"
+      }
+    });
+
+    Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_6__["default"])(Object(_babel_runtime_corejs2_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_4__["default"])(_this), "setLanguage", function (event) {
+      var code = event.target.value;
+
+      _this.setGlobalLanguage(code);
+    });
+
+    Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_6__["default"])(Object(_babel_runtime_corejs2_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_4__["default"])(_this), "setGlobalLanguage", function (code) {
+      _this.setState({
+        language: code
+      });
+
+      _translate__WEBPACK_IMPORTED_MODULE_10__["translateContent"](code);
+    });
+
+    _translate__WEBPACK_IMPORTED_MODULE_10__["setElementKey"]("ling-translate");
+    return _this;
+  }
+
+  Object(_babel_runtime_corejs2_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__["default"])(Footer, [{
+    key: "componentDidMount",
+    value: function componentDidMount() {
+      var browserLanguage = window.navigator.language;
+      this.setGlobalLanguage(this.state.languageCodes[browserLanguage]);
+    }
+  }, {
+    key: "render",
+    value: function render() {
+      var _this$state = this.state,
+          availableLanguages = _this$state.availableLanguages,
+          language = _this$state.language;
+      return __jsx("div", {
+        id: "FooterComponent",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 53
+        },
+        __self: this
+      }, __jsx("h2", {
+        className: "color-white",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 55
+        },
+        __self: this
+      }, _constants__WEBPACK_IMPORTED_MODULE_9__["APP_NAME"]), __jsx("h4", {
+        id: "languageSelectLabel",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 57
+        },
+        __self: this
+      }, "Language"), __jsx("select", {
+        value: language,
+        id: "languageSelect",
+        onChange: this.setLanguage,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 59
+        },
+        __self: this
+      }, availableLanguages.map(function (lang, key) {
+        return __jsx("option", {
+          key: key,
+          value: lang.code,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 61
+          },
+          __self: this
+        }, lang.title);
+      })));
+    }
+  }]);
+
+  return Footer;
+}(react__WEBPACK_IMPORTED_MODULE_7__["Component"]);
+
+/* harmony default export */ __webpack_exports__["default"] = (Footer);
 
 /***/ }),
 
@@ -870,6 +1058,7 @@ var Header = function Header(_ref) {
     __self: this
   }, __jsx("h1", {
     className: "headerTitle",
+    "ling-translate": "HeaderTitle",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 11
@@ -877,47 +1066,49 @@ var Header = function Header(_ref) {
     __self: this
   }, "Learn and Explore"), __jsx("p", {
     className: "headerSubheader",
+    "ling-translate": "HeaderSubtitle",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 12
     },
     __self: this
-  }, "We believe in order to learn, you need to adventure outside what you know and experience the world for its many hidden treasures."), __jsx("button", {
+  }, "We believe in order to learn you need to adventure outside what you know and experience the world for its many hidden treasures. At Linguartech, learning and exploring can happen at the same time! Join the Linguartech, let\u2019s start this journey now!"), __jsx("button", {
     className: "contactUsButton",
+    "ling-translate": "ContactUsButton",
     onClick: function onClick() {
       scrollTo("ContactUs");
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 17
+      lineNumber: 16
     },
     __self: this
   }, "Contact Us")), __jsx("div", {
     id: "rightSide",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 22
+      lineNumber: 21
     },
     __self: this
   }, __jsx("div", {
     className: "image1",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 23
+      lineNumber: 22
     },
     __self: this
   }), __jsx("div", {
     className: "image2",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 24
+      lineNumber: 23
     },
     __self: this
   }), __jsx("div", {
     className: "image3",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 25
+      lineNumber: 24
     },
     __self: this
   }))));
@@ -1012,19 +1203,24 @@ function (_Component) {
       options: [{
         title: "Home",
         scrollTo: 0,
-        activeId: "HeaderComponent"
+        activeId: "HeaderComponent",
+        translateKey: "HomeSectionTitle"
       }, {
         title: "About",
-        scrollTo: "About"
+        scrollTo: "About",
+        translateKey: "AboutSectionTitle"
       }, {
         title: "Our Team",
-        scrollTo: "TeamComponent"
+        scrollTo: "TeamComponent",
+        translateKey: "OurTeamSectionTitle"
       }, {
         title: "How It Works",
-        scrollTo: "StepsComponent"
+        scrollTo: "StepsComponent",
+        translateKey: "HowItWorksSectionTitle"
       }, {
         title: "Contact Us",
-        scrollTo: "ContactUs"
+        scrollTo: "ContactUs",
+        translateKey: "ContactUsSectionTitle"
       }]
     });
 
@@ -1075,7 +1271,7 @@ function (_Component) {
         id: "SidenavCmpnt",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 75
+          lineNumber: 80
         },
         __self: this
       }, __jsx("div", {
@@ -1084,7 +1280,7 @@ function (_Component) {
         onClick: this.toggleNavDrawer,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 76
+          lineNumber: 81
         },
         __self: this
       }), __jsx("div", {
@@ -1092,24 +1288,25 @@ function (_Component) {
         className: navDrawerOpen ? "navOpen" : "navClosed",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 80
+          lineNumber: 85
         },
         __self: this
       }, __jsx("div", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 83
+          lineNumber: 88
         },
         __self: this
       }, __jsx("h3", {
         className: "text-align-center",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 84
+          lineNumber: 89
         },
         __self: this
-      }, "Linguartech")), options.map(function (option, key) {
+      }, _constants__WEBPACK_IMPORTED_MODULE_15__["APP_NAME"])), options.map(function (option, key) {
         return __jsx("button", {
+          "ling-translate": option.translateKey,
           key: key,
           className: "sidenavButton " + (activeSection === (option.activeId || option.scrollTo) ? "selectedSidenavButton" : ""),
           onClick: function onClick() {
@@ -1117,7 +1314,7 @@ function (_Component) {
           },
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 88
+            lineNumber: 93
           },
           __self: this
         }, " ", option.title);
@@ -1125,7 +1322,7 @@ function (_Component) {
         className: "flex-1",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 94
+          lineNumber: 99
         },
         __self: this
       })));
@@ -1169,6 +1366,7 @@ var StepsComponent = function StepsComponent(_ref) {
     __self: this
   }, __jsx("h1", {
     className: "text-align-center font-weight-light color-primary",
+    "ling-translate": "HowItWorksSectionTitle",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 7
@@ -1213,6 +1411,7 @@ var StepsComponent = function StepsComponent(_ref) {
       },
       __self: this
     }, __jsx("h2", {
+      "ling-translate": step.translateKey,
       __source: {
         fileName: _jsxFileName,
         lineNumber: 18
@@ -1220,6 +1419,7 @@ var StepsComponent = function StepsComponent(_ref) {
       __self: this
     }, step.title), __jsx("p", {
       className: "stepDescription",
+      "ling-translate": step.translateKey + "Text",
       __source: {
         fileName: _jsxFileName,
         lineNumber: 20
@@ -1305,6 +1505,7 @@ function (_Component) {
         __self: this
       }, __jsx("h1", {
         className: "color-white text-align-center font-weight-light margin-0",
+        "ling-translate": "OurTeamSectionTitle",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 16
@@ -1314,85 +1515,88 @@ function (_Component) {
         className: "grid",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 18
+          lineNumber: 19
         },
         __self: this
       }, __jsx("div", {
         className: "cardContainer",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 20
+          lineNumber: 21
         },
         __self: this
       }, __jsx("div", {
         className: "personImage personImage-ceo",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 22
+          lineNumber: 23
         },
         __self: this
       }), __jsx("h2", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 24
+          lineNumber: 25
         },
         __self: this
       }, "Feifei Zhang"), __jsx("h4", {
+        "ling-translate": "FounderCEO",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 25
+          lineNumber: 26
         },
         __self: this
       }, "Founder and CEO")), __jsx("div", {
         className: "cardContainer",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 29
+          lineNumber: 30
         },
         __self: this
       }, __jsx("div", {
         className: "personImage personImage-cto",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 31
+          lineNumber: 32
         },
         __self: this
       }), __jsx("h2", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 33
+          lineNumber: 34
         },
         __self: this
       }, "Brennan Batalla"), __jsx("h4", {
+        "ling-translate": "CoFounderCTO",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 34
+          lineNumber: 35
         },
         __self: this
       }, "Co-Founder and CTO")), __jsx("div", {
         className: "cardContainer",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 38
+          lineNumber: 39
         },
         __self: this
       }, __jsx("div", {
         className: "personImage personImage-advisor",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 40
+          lineNumber: 41
         },
         __self: this
       }), __jsx("h2", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 42
+          lineNumber: 43
         },
         __self: this
       }, "Randy Eager"), __jsx("h4", {
+        "ling-translate": "CoFounderAdvisor",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 43
+          lineNumber: 44
         },
         __self: this
       }, "Co-Founder and Advisor"))));
@@ -1568,7 +1772,7 @@ function (_Component) {
           lineNumber: 67
         },
         __self: this
-      }, "Linguartech"), __jsx("span", {
+      }, _constants__WEBPACK_IMPORTED_MODULE_11__["APP_NAME"]), __jsx("span", {
         className: "flex-1",
         __source: {
           fileName: _jsxFileName,
@@ -1586,6 +1790,7 @@ function (_Component) {
         },
         __self: this
       }, __jsx("h3", {
+        "ling-translate": "HomeSectionTitle",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 74
@@ -1602,6 +1807,7 @@ function (_Component) {
         },
         __self: this
       }, __jsx("h3", {
+        "ling-translate": "AboutSectionTitle",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 79
@@ -1618,6 +1824,7 @@ function (_Component) {
         },
         __self: this
       }, __jsx("h3", {
+        "ling-translate": "OurTeamSectionTitle",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 84
@@ -1634,6 +1841,7 @@ function (_Component) {
         },
         __self: this
       }, __jsx("h3", {
+        "ling-translate": "HowItWorksSectionTitle",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 89
@@ -1650,6 +1858,7 @@ function (_Component) {
         },
         __self: this
       }, __jsx("h3", {
+        "ling-translate": "ContactUsSectionTitle",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 94
@@ -7392,10 +7601,15 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _assets_icons_people_24px_svg__WEBPACK_IMPORTED_MODULE_18___default = /*#__PURE__*/__webpack_require__.n(_assets_icons_people_24px_svg__WEBPACK_IMPORTED_MODULE_18__);
 /* harmony import */ var _assets_icons_airplane_24px_svg__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! ../assets/icons/airplane-24px.svg */ "./assets/icons/airplane-24px.svg");
 /* harmony import */ var _assets_icons_airplane_24px_svg__WEBPACK_IMPORTED_MODULE_19___default = /*#__PURE__*/__webpack_require__.n(_assets_icons_airplane_24px_svg__WEBPACK_IMPORTED_MODULE_19__);
-/* harmony import */ var _components_ContactUs_ContactUs__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! ../components/ContactUs/ContactUs */ "./components/ContactUs/ContactUs.js");
-/* harmony import */ var react_scroll__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(/*! react-scroll */ "./node_modules/react-scroll/modules/index.js");
-/* harmony import */ var react_scroll__WEBPACK_IMPORTED_MODULE_21___default = /*#__PURE__*/__webpack_require__.n(react_scroll__WEBPACK_IMPORTED_MODULE_21__);
-/* harmony import */ var _components_Sidenav_Sidenav__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(/*! ../components/Sidenav/Sidenav */ "./components/Sidenav/Sidenav.js");
+/* harmony import */ var _assets_icons_laptop_24px_svg__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! ../assets/icons/laptop-24px.svg */ "./assets/icons/laptop-24px.svg");
+/* harmony import */ var _assets_icons_laptop_24px_svg__WEBPACK_IMPORTED_MODULE_20___default = /*#__PURE__*/__webpack_require__.n(_assets_icons_laptop_24px_svg__WEBPACK_IMPORTED_MODULE_20__);
+/* harmony import */ var _assets_icons_search_svg__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(/*! ../assets/icons/search.svg */ "./assets/icons/search.svg");
+/* harmony import */ var _assets_icons_search_svg__WEBPACK_IMPORTED_MODULE_21___default = /*#__PURE__*/__webpack_require__.n(_assets_icons_search_svg__WEBPACK_IMPORTED_MODULE_21__);
+/* harmony import */ var _components_ContactUs_ContactUs__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(/*! ../components/ContactUs/ContactUs */ "./components/ContactUs/ContactUs.js");
+/* harmony import */ var react_scroll__WEBPACK_IMPORTED_MODULE_23__ = __webpack_require__(/*! react-scroll */ "./node_modules/react-scroll/modules/index.js");
+/* harmony import */ var react_scroll__WEBPACK_IMPORTED_MODULE_23___default = /*#__PURE__*/__webpack_require__.n(react_scroll__WEBPACK_IMPORTED_MODULE_23__);
+/* harmony import */ var _components_Sidenav_Sidenav__WEBPACK_IMPORTED_MODULE_24__ = __webpack_require__(/*! ../components/Sidenav/Sidenav */ "./components/Sidenav/Sidenav.js");
+/* harmony import */ var _components_Footer_Footer__WEBPACK_IMPORTED_MODULE_25__ = __webpack_require__(/*! ../components/Footer/Footer */ "./components/Footer/Footer.js");
 
 
 
@@ -7405,6 +7619,9 @@ __webpack_require__.r(__webpack_exports__);
 
 var _jsxFileName = "/Users/brennanbatalla/Projects/WebApps/linguart/linguartech-company-website/pages/index.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement;
+
+
+
 
 
 
@@ -7445,21 +7662,32 @@ function (_Component) {
     });
 
     Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_6__["default"])(Object(_babel_runtime_corejs2_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_4__["default"])(_this), "steps", [{
-      icon: _assets_icons_phone_24px_svg__WEBPACK_IMPORTED_MODULE_16___default.a,
-      title: "Meet with us",
-      description: "When you meet with us, we will go over all the different programs and locations we have to offer.  You will be able to select from over 20 different programs in over 5 countries.  We will collect all the information required for the program and Visa."
+      icon: _assets_icons_search_svg__WEBPACK_IMPORTED_MODULE_21___default.a,
+      translateKey: "StepsSearch",
+      title: "Find Your Programs",
+      description: "We offer many different programs in many different countries. Using our booking platform, you can easily search through them all and find the program that fits your unique needs."
     }, {
       icon: _assets_icons_submit_24px_svg__WEBPACK_IMPORTED_MODULE_17___default.a,
+      translateKey: "StepsSubmit",
       title: "Submit Applications",
-      description: "Once you choose a program, we will then submit the application and all the required information.  We will also then help submit all your paper work required to gain a visa for your chosen destination."
-    }, {
-      icon: _assets_icons_people_24px_svg__WEBPACK_IMPORTED_MODULE_18___default.a,
-      title: "Interview Preparation",
-      description: "After being accepted by the university, you will have one last step before you can attend the program.  In order to receive the Visa for the host country, you must interview. We will help prepare you for this so you do not have to worry!"
+      description: "Using our booking platform, you can easily submit applications for as many programs as you like.  When you submit them, you can rest easily knowing all your personal data is well protected and will only be shared with whom you choose!"
+    },
+    /*{
+    icon: PEOPLE_ICON,
+    translateKey: "",
+    title: "Interview Preparation",
+    description: "After being accepted by the university, you will have one last step before you can attend the program.  In order to receive the Visa for the host country, you must interview. We will help prepare you for this so you do not have to worry!"
+    },*/
+    {
+      icon: _assets_icons_phone_24px_svg__WEBPACK_IMPORTED_MODULE_16___default.a,
+      translateKey: "StepsTalk",
+      title: "Talk with us",
+      description: "Once your applications have been submitted, we will contact you within 48 hours. Our professional team will assist you with the application process, visa application, and all other stages of your study abroad trip."
     }, {
       icon: _assets_icons_airplane_24px_svg__WEBPACK_IMPORTED_MODULE_19___default.a,
+      translateKey: "StepsPack",
       title: "Pack your bags",
-      description: "Last step you must take before your program begins is to PACK YOUR BAGS!  Next your off on to your experience of a lifetime trip!"
+      description: "The last step is to go abroad! Once you receive the program offer and visa, it’s time to pack! We will be there to help you with every step of the way and to answer any question you may have!"
     }]);
 
     Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_6__["default"])(Object(_babel_runtime_corejs2_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_4__["default"])(_this), "emailOnchange", function (event) {
@@ -7476,7 +7704,7 @@ function (_Component) {
         go = el.offsetTop - 100;
       }
 
-      react_scroll__WEBPACK_IMPORTED_MODULE_21__["animateScroll"].scrollTo(go);
+      react_scroll__WEBPACK_IMPORTED_MODULE_23__["animateScroll"].scrollTo(go);
     });
 
     return _this;
@@ -7485,15 +7713,15 @@ function (_Component) {
   Object(_babel_runtime_corejs2_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__["default"])(Index, [{
     key: "componentDidMount",
     value: function componentDidMount() {
-      react_scroll__WEBPACK_IMPORTED_MODULE_21__["Events"].scrollEvent.register('begin', function (to, element) {});
-      react_scroll__WEBPACK_IMPORTED_MODULE_21__["Events"].scrollEvent.register('end', function (to, element) {});
-      react_scroll__WEBPACK_IMPORTED_MODULE_21__["scrollSpy"].update();
+      react_scroll__WEBPACK_IMPORTED_MODULE_23__["Events"].scrollEvent.register('begin', function (to, element) {});
+      react_scroll__WEBPACK_IMPORTED_MODULE_23__["Events"].scrollEvent.register('end', function (to, element) {});
+      react_scroll__WEBPACK_IMPORTED_MODULE_23__["scrollSpy"].update();
     }
   }, {
     key: "componentWillUnmount",
     value: function componentWillUnmount() {
-      react_scroll__WEBPACK_IMPORTED_MODULE_21__["Events"].scrollEvent.remove('begin');
-      react_scroll__WEBPACK_IMPORTED_MODULE_21__["Events"].scrollEvent.remove('end');
+      react_scroll__WEBPACK_IMPORTED_MODULE_23__["Events"].scrollEvent.remove('begin');
+      react_scroll__WEBPACK_IMPORTED_MODULE_23__["Events"].scrollEvent.remove('end');
     }
   }, {
     key: "render",
@@ -7503,28 +7731,28 @@ function (_Component) {
         id: "Index",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 75
+          lineNumber: 89
         },
         __self: this
       }, __jsx(_components_Toolbar_Toolbar__WEBPACK_IMPORTED_MODULE_8__["default"], {
         scrollTo: this.scrollTo,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 76
+          lineNumber: 90
         },
         __self: this
-      }), __jsx(_components_Sidenav_Sidenav__WEBPACK_IMPORTED_MODULE_22__["default"], {
+      }), __jsx(_components_Sidenav_Sidenav__WEBPACK_IMPORTED_MODULE_24__["default"], {
         scrollTo: this.scrollTo,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 78
+          lineNumber: 92
         },
         __self: this
       }), __jsx(_components_Header_Header__WEBPACK_IMPORTED_MODULE_11__["default"], {
         scrollTo: this.scrollTo,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 80
+          lineNumber: 94
         },
         __self: this
       }), __jsx(_components_EnterEmail_EnterEmail__WEBPACK_IMPORTED_MODULE_13__["default"], {
@@ -7532,32 +7760,38 @@ function (_Component) {
         value: email,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 82
+          lineNumber: 96
         },
         __self: this
       }), __jsx(_components_About_About__WEBPACK_IMPORTED_MODULE_12__["default"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 84
+          lineNumber: 98
         },
         __self: this
       }), __jsx(_components_Team_Team__WEBPACK_IMPORTED_MODULE_14__["default"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 86
+          lineNumber: 100
         },
         __self: this
       }), __jsx(_components_Steps_StepsComponent__WEBPACK_IMPORTED_MODULE_15__["default"], {
         steps: this.steps,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 88
+          lineNumber: 102
         },
         __self: this
-      }), __jsx(_components_ContactUs_ContactUs__WEBPACK_IMPORTED_MODULE_20__["default"], {
+      }), __jsx(_components_ContactUs_ContactUs__WEBPACK_IMPORTED_MODULE_22__["default"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 90
+          lineNumber: 104
+        },
+        __self: this
+      }), __jsx(_components_Footer_Footer__WEBPACK_IMPORTED_MODULE_25__["default"], {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 106
         },
         __self: this
       }));
@@ -7568,6 +7802,59 @@ function (_Component) {
 }(react__WEBPACK_IMPORTED_MODULE_7__["Component"]);
 
 /* harmony default export */ __webpack_exports__["default"] = (Index);
+
+/***/ }),
+
+/***/ "./translate.js":
+/*!**********************!*\
+  !*** ./translate.js ***!
+  \**********************/
+/*! exports provided: setElementKey, translateContent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "setElementKey", function() { return setElementKey; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "translateContent", function() { return translateContent; });
+/* harmony import */ var _translatedContent_json__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./translatedContent.json */ "./translatedContent.json");
+var _translatedContent_json__WEBPACK_IMPORTED_MODULE_0___namespace = /*#__PURE__*/__webpack_require__.t(/*! ./translatedContent.json */ "./translatedContent.json", 1);
+
+var attribute = null;
+var setElementKey = function setElementKey(key) {
+  attribute = key;
+};
+var translateContent = function translateContent(code) {
+  var elements = document.querySelectorAll("[".concat(attribute, "]"));
+
+  if (!elements.length) {
+    return;
+  }
+
+  elements.forEach(function (element) {
+    var contentKey = element.getAttribute(attribute);
+
+    if (!_translatedContent_json__WEBPACK_IMPORTED_MODULE_0__[contentKey] || !_translatedContent_json__WEBPACK_IMPORTED_MODULE_0__[contentKey][code]) {
+      return;
+    }
+
+    if (["input", "select", "textarea"].includes(element.tagName.toLowerCase())) {
+      element.placeholder = _translatedContent_json__WEBPACK_IMPORTED_MODULE_0__[contentKey][code];
+    } else {
+      element.innerHTML = _translatedContent_json__WEBPACK_IMPORTED_MODULE_0__[contentKey][code];
+    }
+  });
+};
+
+/***/ }),
+
+/***/ "./translatedContent.json":
+/*!********************************!*\
+  !*** ./translatedContent.json ***!
+  \********************************/
+/*! exports provided: HeaderTitle, HeaderSubtitle, ContactUsButton, HomeSectionTitle, AboutSectionTitle, OurTeamSectionTitle, HowItWorksSectionTitle, ContactUsSectionTitle, EmailSubscribe, EmailSubscribeButton, EmailSubscribeInput, AboutUsContentText, AboutUsBookingPlatform, AboutUsBookingPlatformText, AboutUsOnlineEducation, AboutUsOnlineEducationText, AboutUsGlobalNetwork, AboutUsGlobalNetworkText, StepsSearch, StepsSearchText, StepsSubmit, StepsSubmitText, StepsTalk, StepsTalkText, StepsPack, StepsPackText, FounderCEO, CoFounderCTO, CoFounderAdvisor, ContactUsFirstName, ContactUsLastName, ContactUsEmail, ContactUsPhoneNumber, ContactUsPhoneNumberHint, ContactUsAdditionalInfo, ContactUsFormError, SubmitButton, default */
+/***/ (function(module) {
+
+module.exports = JSON.parse("{\"HeaderTitle\":{\"zh\":\"学习与探索\",\"en\":\"Learn and Explore\"},\"HeaderSubtitle\":{\"zh\":\"我們相信，要學習，您需要在自己所了解的事物之外進行冒險，並因其許多隱藏的寶藏而體驗世界。在Linguartech，學習和探索可以同時進行！加入Linguartech，現在就開始這個旅程!\",\"en\":\"We believe in order to learn you need to adventure outside what you know and experience the world for its many hidden treasures. At Linguartech, learning and exploring can happen at the same time! Join the Linguartech, let’s start this journey now! \"},\"ContactUsButton\":{\"en\":\"Contact Us\",\"zh\":\"聯繫我們\"},\"HomeSectionTitle\":{\"en\":\"Home\",\"zh\":\"家\"},\"AboutSectionTitle\":{\"en\":\"About Us\",\"zh\":\"關於\"},\"OurTeamSectionTitle\":{\"en\":\"Our Team\",\"zh\":\"我們的隊伍\"},\"HowItWorksSectionTitle\":{\"en\":\"How It Works\",\"zh\":\"怎麼運行的\"},\"ContactUsSectionTitle\":{\"en\":\"Contact Us\",\"zh\":\"聯繫我們\"},\"EmailSubscribe\":{\"en\":\"Subscribe to get alerts on international news, visa updates, discounts and more!\",\"zh\":\"訂閱以獲得有關國際新聞，簽證更新，折扣等的警報!\"},\"EmailSubscribeButton\":{\"en\":\"Subscribe\",\"zh\":\"訂閱\"},\"EmailSubscribeInput\":{\"en\":\"Enter your Email\",\"zh\":\"輸入你的電子郵箱\"},\"AboutUsContentText\":{\"en\":\"Linguartech is an educational booking platform and an online learning center. We connect students to worldwide short-term academic programs by helping them go to the school in person or through an online offering. With Linguartech, you can find Language Learning, Music & Art, and Science & Technology programs. No matter who you are or where you live, you have the same opportunity to reach the best programs in the world.\",\"zh\":\"Linguartech 是一個教育預訂平台和一個在線學習中心。通過幫助學生親自上學或通過在線服務，我們將學生與全球短期學術計劃聯繫起來。使用Linguartech，您可以找到語言學習，音樂與藝術以及科學與技術計劃。無論您是誰，無論身在何處，您都有相同的機會參加世界上最好的課程。\"},\"AboutUsBookingPlatform\":{\"en\":\"Booking Platform\",\"zh\":\"預訂平台\"},\"AboutUsBookingPlatformText\":{\"en\":\"Linguartech is a booking platform!  You can find Language, Music & Art, and Science & Tech programs located in over 10 different countries.  With us, we can guarantee you the best prices out there.\",\"zh\":\"Linguartech是一個預訂平台！您可以在10多個國家/地區找到語言，音樂與藝術和科學與技術課程。與我們合作，我們可以保證為您提供最優惠的價格。\"},\"AboutUsOnlineEducation\":{\"en\":\"Online Education\",\"zh\":\"在線教育\"},\"AboutUsOnlineEducationText\":{\"en\":\"Linguartech’s online learning center focuses on foreign language learning; we work with language experts to provide comprehensive courses designed for the best online experience.\",\"zh\":\"Linguartech的在線學習中心專注於外語學習；我們與語言專家合作，提供旨在獲得最佳在線體驗的綜合課程。\"},\"AboutUsGlobalNetwork\":{\"en\":\"Global Network\",\"zh\":\"全球網絡\"},\"AboutUsGlobalNetworkText\":{\"en\":\"Linguartech has partnered with Colleges and Universities all over the world who are excited to accept new applicants.  Our partners are located in over 10 different countries with programs that fit the needs of any applicant!\",\"zh\":\"Linguartech與世界各地的大學和大學建立了合作夥伴關係，他們很高興接受新的申請者。我們的合作夥伴遍布10多個不同的國家，其課程可滿足任何申請人的需求!\"},\"StepsSearch\":{\"en\":\"Find Your Programs\",\"zh\":\"查找程序\"},\"StepsSearchText\":{\"en\":\"We offer many different programs in many different countries. Using our booking platform, you can easily search through them all and find the program that fits your unique needs.\",\"zh\":\"我們在許多不同的國家提供許多不同的程序。使用我們的預訂平台，您可以輕鬆搜索所有內容，找到適合您獨特需求的程序。\"},\"StepsSubmit\":{\"en\":\"Submit Applications\",\"zh\":\"提交申請\"},\"StepsSubmitText\":{\"en\":\"Using our booking platform, you can easily submit applications for as many programs as you like.  When you submit them, you can rest easily knowing all your personal data is well protected and will only be shared with whom you choose!\",\"zh\":\"使用我們的預訂平台，您可以輕鬆提交任意數量的程序的申請。當您提交它們時，您可以輕鬆知道所有個人數據都受到良好保護，並且只會與您選擇的人共享！\"},\"StepsTalk\":{\"en\":\"Talk with us\",\"zh\":\"與我們交談\"},\"StepsTalkText\":{\"en\":\"Once your applications have been submitted, we will contact you within 48 hours. Our professional team will assist you with the application process, visa application, and all other stages of your study abroad trip.\",\"zh\":\"提交您的申請後，我們將在48小時內與您聯繫。我們的專業團隊將協助您完成申請程序，簽證申請以及您出國學習的所有其他階段。\"},\"StepsPack\":{\"en\":\"Pack Your Bags\",\"zh\":\"收拾行囊\"},\"StepsPackText\":{\"en\":\"The last step is to go abroad! Once you receive the program offer and visa, it’s time to pack! We will be there to help you with every step of the way and to answer any question you may have!\",\"zh\":\"最後一步是出國！收到計劃優惠和簽證後，就可以打包了！我們將在那裡幫助您完成每一步，並回答您可能遇到的任何問題！\"},\"FounderCEO\":{\"en\":\"Founder and CEO\",\"zh\":\"創始人兼首席執行官\"},\"CoFounderCTO\":{\"en\":\"Co-Founder and CTO\",\"zh\":\"聯合創始人兼首席技術官\"},\"CoFounderAdvisor\":{\"en\":\"Co-Founder and Advisor\",\"zh\":\"聯合創始人兼顧問\"},\"ContactUsFirstName\":{\"en\":\"First Name\",\"zh\":\"名字\"},\"ContactUsLastName\":{\"en\":\"Last Name\",\"zh\":\"姓\"},\"ContactUsEmail\":{\"en\":\"Email\",\"zh\":\"電子郵件\"},\"ContactUsPhoneNumber\":{\"en\":\"Phone Number\",\"zh\":\"電話號碼\"},\"ContactUsPhoneNumberHint\":{\"en\":\"Please include country code as well.\",\"zh\":\"請同時包括國家代碼。\"},\"ContactUsAdditionalInfo\":{\"en\":\"(Optional) Any questions or comments you would like us to know ahead of time!\",\"zh\":\"(可選）您希望我們提前知道的任何問題或評論！\"},\"ContactUsFormError\":{\"en\":\"This field is required.\",\"zh\":\"這是必填欄。\"},\"SubmitButton\":{\"en\":\"Submit\",\"zh\":\"提交\"}}");
 
 /***/ }),
 
