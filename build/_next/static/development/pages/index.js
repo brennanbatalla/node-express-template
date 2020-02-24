@@ -340,20 +340,24 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _babel_runtime_corejs2_core_js_object_get_own_property_symbols__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_corejs2_core_js_object_get_own_property_symbols__WEBPACK_IMPORTED_MODULE_4__);
 /* harmony import */ var _babel_runtime_corejs2_core_js_object_keys__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @babel/runtime-corejs2/core-js/object/keys */ "./node_modules/@babel/runtime-corejs2/core-js/object/keys.js");
 /* harmony import */ var _babel_runtime_corejs2_core_js_object_keys__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_corejs2_core_js_object_keys__WEBPACK_IMPORTED_MODULE_5__);
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/classCallCheck */ "./node_modules/@babel/runtime-corejs2/helpers/esm/classCallCheck.js");
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/createClass */ "./node_modules/@babel/runtime-corejs2/helpers/esm/createClass.js");
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/possibleConstructorReturn */ "./node_modules/@babel/runtime-corejs2/helpers/esm/possibleConstructorReturn.js");
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/getPrototypeOf */ "./node_modules/@babel/runtime-corejs2/helpers/esm/getPrototypeOf.js");
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/assertThisInitialized */ "./node_modules/@babel/runtime-corejs2/helpers/esm/assertThisInitialized.js");
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/inherits */ "./node_modules/@babel/runtime-corejs2/helpers/esm/inherits.js");
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/defineProperty */ "./node_modules/@babel/runtime-corejs2/helpers/esm/defineProperty.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_13___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_13__);
-/* harmony import */ var _ContactUs_scss__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./ContactUs.scss */ "./components/ContactUs/ContactUs.scss");
-/* harmony import */ var _ContactUs_scss__WEBPACK_IMPORTED_MODULE_14___default = /*#__PURE__*/__webpack_require__.n(_ContactUs_scss__WEBPACK_IMPORTED_MODULE_14__);
-/* harmony import */ var _Utils__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ../../Utils */ "./Utils.js");
-/* harmony import */ var _countryCodes__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ../../countryCodes */ "./countryCodes.json");
-var _countryCodes__WEBPACK_IMPORTED_MODULE_16___namespace = /*#__PURE__*/__webpack_require__.t(/*! ../../countryCodes */ "./countryCodes.json", 1);
+/* harmony import */ var _babel_runtime_corejs2_core_js_json_stringify__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @babel/runtime-corejs2/core-js/json/stringify */ "./node_modules/@babel/runtime-corejs2/core-js/json/stringify.js");
+/* harmony import */ var _babel_runtime_corejs2_core_js_json_stringify__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_corejs2_core_js_json_stringify__WEBPACK_IMPORTED_MODULE_6__);
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/classCallCheck */ "./node_modules/@babel/runtime-corejs2/helpers/esm/classCallCheck.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/createClass */ "./node_modules/@babel/runtime-corejs2/helpers/esm/createClass.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/possibleConstructorReturn */ "./node_modules/@babel/runtime-corejs2/helpers/esm/possibleConstructorReturn.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/getPrototypeOf */ "./node_modules/@babel/runtime-corejs2/helpers/esm/getPrototypeOf.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/assertThisInitialized */ "./node_modules/@babel/runtime-corejs2/helpers/esm/assertThisInitialized.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/inherits */ "./node_modules/@babel/runtime-corejs2/helpers/esm/inherits.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/defineProperty */ "./node_modules/@babel/runtime-corejs2/helpers/esm/defineProperty.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_14___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_14__);
+/* harmony import */ var _ContactUs_scss__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ./ContactUs.scss */ "./components/ContactUs/ContactUs.scss");
+/* harmony import */ var _ContactUs_scss__WEBPACK_IMPORTED_MODULE_15___default = /*#__PURE__*/__webpack_require__.n(_ContactUs_scss__WEBPACK_IMPORTED_MODULE_15__);
+/* harmony import */ var _Utils__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ../../Utils */ "./Utils.js");
+/* harmony import */ var event_subscription__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! event-subscription */ "./node_modules/event-subscription/index.js");
+/* harmony import */ var event_subscription__WEBPACK_IMPORTED_MODULE_17___default = /*#__PURE__*/__webpack_require__.n(event_subscription__WEBPACK_IMPORTED_MODULE_17__);
+/* harmony import */ var _constants__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ../../constants */ "./constants.js");
+
 
 
 
@@ -368,11 +372,12 @@ var _countryCodes__WEBPACK_IMPORTED_MODULE_16___namespace = /*#__PURE__*/__webpa
 
 
 var _jsxFileName = "/Users/brennanbatalla/Projects/WebApps/linguart/linguartech-company-website/components/ContactUs/ContactUs.js";
-var __jsx = react__WEBPACK_IMPORTED_MODULE_13___default.a.createElement;
+var __jsx = react__WEBPACK_IMPORTED_MODULE_14___default.a.createElement;
 
 function ownKeys(object, enumerableOnly) { var keys = _babel_runtime_corejs2_core_js_object_keys__WEBPACK_IMPORTED_MODULE_5___default()(object); if (_babel_runtime_corejs2_core_js_object_get_own_property_symbols__WEBPACK_IMPORTED_MODULE_4___default.a) { var symbols = _babel_runtime_corejs2_core_js_object_get_own_property_symbols__WEBPACK_IMPORTED_MODULE_4___default()(object); if (enumerableOnly) symbols = symbols.filter(function (sym) { return _babel_runtime_corejs2_core_js_object_get_own_property_descriptor__WEBPACK_IMPORTED_MODULE_3___default()(object, sym).enumerable; }); keys.push.apply(keys, symbols); } return keys; }
 
-function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i] != null ? arguments[i] : {}; if (i % 2) { ownKeys(Object(source), true).forEach(function (key) { Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_12__["default"])(target, key, source[key]); }); } else if (_babel_runtime_corejs2_core_js_object_get_own_property_descriptors__WEBPACK_IMPORTED_MODULE_2___default.a) { _babel_runtime_corejs2_core_js_object_define_properties__WEBPACK_IMPORTED_MODULE_1___default()(target, _babel_runtime_corejs2_core_js_object_get_own_property_descriptors__WEBPACK_IMPORTED_MODULE_2___default()(source)); } else { ownKeys(Object(source)).forEach(function (key) { _babel_runtime_corejs2_core_js_object_define_property__WEBPACK_IMPORTED_MODULE_0___default()(target, key, _babel_runtime_corejs2_core_js_object_get_own_property_descriptor__WEBPACK_IMPORTED_MODULE_3___default()(source, key)); }); } } return target; }
+function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i] != null ? arguments[i] : {}; if (i % 2) { ownKeys(Object(source), true).forEach(function (key) { Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_13__["default"])(target, key, source[key]); }); } else if (_babel_runtime_corejs2_core_js_object_get_own_property_descriptors__WEBPACK_IMPORTED_MODULE_2___default.a) { _babel_runtime_corejs2_core_js_object_define_properties__WEBPACK_IMPORTED_MODULE_1___default()(target, _babel_runtime_corejs2_core_js_object_get_own_property_descriptors__WEBPACK_IMPORTED_MODULE_2___default()(source)); } else { ownKeys(Object(source)).forEach(function (key) { _babel_runtime_corejs2_core_js_object_define_property__WEBPACK_IMPORTED_MODULE_0___default()(target, key, _babel_runtime_corejs2_core_js_object_get_own_property_descriptor__WEBPACK_IMPORTED_MODULE_3___default()(source, key)); }); } } return target; }
+
 
 
 
@@ -382,28 +387,28 @@ function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { va
 var ContactUs =
 /*#__PURE__*/
 function (_Component) {
-  Object(_babel_runtime_corejs2_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_11__["default"])(ContactUs, _Component);
+  Object(_babel_runtime_corejs2_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_12__["default"])(ContactUs, _Component);
 
   function ContactUs() {
     var _getPrototypeOf2;
 
     var _this;
 
-    Object(_babel_runtime_corejs2_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_6__["default"])(this, ContactUs);
+    Object(_babel_runtime_corejs2_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_7__["default"])(this, ContactUs);
 
     for (var _len = arguments.length, args = new Array(_len), _key = 0; _key < _len; _key++) {
       args[_key] = arguments[_key];
     }
 
-    _this = Object(_babel_runtime_corejs2_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_8__["default"])(this, (_getPrototypeOf2 = Object(_babel_runtime_corejs2_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_9__["default"])(ContactUs)).call.apply(_getPrototypeOf2, [this].concat(args)));
+    _this = Object(_babel_runtime_corejs2_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_9__["default"])(this, (_getPrototypeOf2 = Object(_babel_runtime_corejs2_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_10__["default"])(ContactUs)).call.apply(_getPrototypeOf2, [this].concat(args)));
 
-    Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_12__["default"])(Object(_babel_runtime_corejs2_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_10__["default"])(_this), "state", {
+    Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_13__["default"])(Object(_babel_runtime_corejs2_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_11__["default"])(_this), "state", {
       form: {
         firstName: "",
         lastName: "",
         email: "",
         phoneNumber: "",
-        questions: ""
+        additionalInfo: ""
       },
       formErrors: {
         email: ""
@@ -411,12 +416,12 @@ function (_Component) {
       formValidated: false
     });
 
-    Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_12__["default"])(Object(_babel_runtime_corejs2_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_10__["default"])(_this), "onFormChange", function (event) {
+    Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_13__["default"])(Object(_babel_runtime_corejs2_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_11__["default"])(_this), "onFormChange", function (event) {
       if (!event.target || !event.target.name) {
         return;
       }
 
-      var form = _objectSpread({}, _this.state.form, Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_12__["default"])({}, event.target.name, event.target.value));
+      var form = _objectSpread({}, _this.state.form, Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_13__["default"])({}, event.target.name, event.target.value));
 
       _this.setState(function (state) {
         return _objectSpread({}, state, {
@@ -425,26 +430,10 @@ function (_Component) {
       }, _this.validateForm);
     });
 
-    Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_12__["default"])(Object(_babel_runtime_corejs2_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_10__["default"])(_this), "validatePhoneNumber", function () {
+    Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_13__["default"])(Object(_babel_runtime_corejs2_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_11__["default"])(_this), "validateEmail", function () {
       var error = "";
 
-      if (!Object(_Utils__WEBPACK_IMPORTED_MODULE_15__["validatePhoneNumber"])(_this.state.form.phoneNumber)) {
-        error = "This is not a correctly formatted Phone number.  Must have country code.";
-      }
-
-      var formErrors = _objectSpread({}, _this.state.formErrors, {
-        phoneNumber: error
-      });
-
-      _this.setState({
-        formErrors: formErrors
-      });
-    });
-
-    Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_12__["default"])(Object(_babel_runtime_corejs2_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_10__["default"])(_this), "validateEmail", function () {
-      var error = "";
-
-      if (!Object(_Utils__WEBPACK_IMPORTED_MODULE_15__["validateEmail"])(_this.state.form.email)) {
+      if (!Object(_Utils__WEBPACK_IMPORTED_MODULE_16__["validateEmail"])(_this.state.form.email)) {
         error = "This is not a correctly formatted Email.";
       }
 
@@ -457,18 +446,46 @@ function (_Component) {
       });
     });
 
-    Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_12__["default"])(Object(_babel_runtime_corejs2_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_10__["default"])(_this), "submitForm", function (event) {
+    Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_13__["default"])(Object(_babel_runtime_corejs2_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_11__["default"])(_this), "submitForm", function (event) {
       event.preventDefault();
-      console.log("Submit", _this.state.form);
+
+      var body = _objectSpread({}, _this.state.form);
+
+      delete body["firstName"];
+      fetch('/api/v1/contact', {
+        method: 'POST',
+        headers: {
+          'Accept': 'application/json',
+          'Content-Type': 'application/json'
+        },
+        body: _babel_runtime_corejs2_core_js_json_stringify__WEBPACK_IMPORTED_MODULE_6___default()(body)
+      }).then(function (response) {
+        if (!response.ok) {
+          throw Error("error");
+        }
+
+        Object(event_subscription__WEBPACK_IMPORTED_MODULE_17__["emit"])(_constants__WEBPACK_IMPORTED_MODULE_18__["ADD_NOTIFCATION"], {
+          title: "Form Submitted!",
+          type: "success"
+        });
+
+        _this.resetForm();
+      })["catch"](function (error) {
+        console.log("ERROR", error);
+        Object(event_subscription__WEBPACK_IMPORTED_MODULE_17__["emit"])(_constants__WEBPACK_IMPORTED_MODULE_18__["ADD_NOTIFCATION"], {
+          title: "Error submitting your form.",
+          type: "error"
+        });
+      });
     });
 
-    Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_12__["default"])(Object(_babel_runtime_corejs2_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_10__["default"])(_this), "validateForm", function () {
+    Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_13__["default"])(Object(_babel_runtime_corejs2_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_11__["default"])(_this), "validateForm", function () {
       var form = _this.state.form;
       var success = true;
       var formErrors = _this.state.formErrors;
 
       for (var key in form) {
-        if (key === "questions") {
+        if (key === "additionalInfo") {
           continue;
         }
 
@@ -490,10 +507,22 @@ function (_Component) {
       });
     });
 
+    Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_13__["default"])(Object(_babel_runtime_corejs2_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_11__["default"])(_this), "resetForm", function () {
+      _this.setState({
+        form: {
+          firstName: "",
+          lastName: "",
+          email: "",
+          phoneNumber: "",
+          additionalInfo: ""
+        }
+      });
+    });
+
     return _this;
   }
 
-  Object(_babel_runtime_corejs2_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_7__["default"])(ContactUs, [{
+  Object(_babel_runtime_corejs2_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_8__["default"])(ContactUs, [{
     key: "componentDidMount",
     value: function componentDidMount() {}
   }, {
@@ -507,7 +536,7 @@ function (_Component) {
         id: "ContactUs",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 92
+          lineNumber: 124
         },
         __self: this
       }, __jsx("h1", {
@@ -515,7 +544,7 @@ function (_Component) {
         "ling-translate": "ContactUsSectionTitle",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 94
+          lineNumber: 126
         },
         __self: this
       }, "Contact Us"), __jsx("form", {
@@ -523,14 +552,14 @@ function (_Component) {
         className: "form",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 97
+          lineNumber: 129
         },
         __self: this
       }, __jsx("div", {
         className: "inputLabel",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 99
+          lineNumber: 131
         },
         __self: this
       }, __jsx("label", {
@@ -538,14 +567,14 @@ function (_Component) {
         required: true,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 100
+          lineNumber: 132
         },
         __self: this
       }, "First Name"), __jsx("div", {
         className: "flex-direction-column",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 101
+          lineNumber: 133
         },
         __self: this
       }, __jsx("input", {
@@ -558,13 +587,13 @@ function (_Component) {
         type: "text",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 102
+          lineNumber: 134
         },
         __self: this
       }), __jsx("div", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 105
+          lineNumber: 138
         },
         __self: this
       }, __jsx("span", {
@@ -572,14 +601,14 @@ function (_Component) {
         className: "formError",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 106
+          lineNumber: 139
         },
         __self: this
       }, formErrors.firstName)))), __jsx("div", {
         className: "inputLabel",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 111
+          lineNumber: 145
         },
         __self: this
       }, __jsx("label", {
@@ -587,14 +616,14 @@ function (_Component) {
         required: true,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 112
+          lineNumber: 146
         },
         __self: this
       }, "Last Name"), __jsx("div", {
         className: "flex-direction-column",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 113
+          lineNumber: 147
         },
         __self: this
       }, __jsx("input", {
@@ -607,13 +636,13 @@ function (_Component) {
         type: "text",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 114
+          lineNumber: 148
         },
         __self: this
       }), __jsx("div", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 117
+          lineNumber: 152
         },
         __self: this
       }, __jsx("span", {
@@ -621,14 +650,14 @@ function (_Component) {
         className: "formError",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 118
+          lineNumber: 153
         },
         __self: this
       }, formErrors.lastName)))), __jsx("div", {
         className: "inputLabel",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 123
+          lineNumber: 159
         },
         __self: this
       }, __jsx("label", {
@@ -636,14 +665,14 @@ function (_Component) {
         required: true,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 124
+          lineNumber: 160
         },
         __self: this
       }, "Email"), __jsx("div", {
         className: "flex-direction-column",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 125
+          lineNumber: 161
         },
         __self: this
       }, __jsx("input", {
@@ -656,13 +685,13 @@ function (_Component) {
         type: "email",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 126
+          lineNumber: 162
         },
         __self: this
       }), __jsx("div", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 129
+          lineNumber: 166
         },
         __self: this
       }, __jsx("span", {
@@ -670,14 +699,14 @@ function (_Component) {
         className: "formError",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 130
+          lineNumber: 167
         },
         __self: this
       }, formErrors.email)))), __jsx("div", {
         className: "inputLabel",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 135
+          lineNumber: 173
         },
         __self: this
       }, __jsx("label", {
@@ -685,14 +714,14 @@ function (_Component) {
         required: true,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 136
+          lineNumber: 174
         },
         __self: this
       }, "Phone Number"), __jsx("div", {
         className: "flex-direction-column",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 137
+          lineNumber: 175
         },
         __self: this
       }, __jsx("input", {
@@ -705,13 +734,13 @@ function (_Component) {
         type: "tel",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 138
+          lineNumber: 176
         },
         __self: this
       }), __jsx("div", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 141
+          lineNumber: 180
         },
         __self: this
       }, !formErrors.phoneNumber && __jsx("span", {
@@ -719,7 +748,7 @@ function (_Component) {
         className: "inputHint",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 143
+          lineNumber: 182
         },
         __self: this
       }, "Please include country code as well."), formErrors.phoneNumber && __jsx("span", {
@@ -727,27 +756,27 @@ function (_Component) {
         className: "formError",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 145
+          lineNumber: 185
         },
         __self: this
       }, formErrors.phoneNumber)))), __jsx("div", {
         className: "inputLabel",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 150
+          lineNumber: 191
         },
         __self: this
       }, __jsx("label", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 151
+          lineNumber: 192
         },
         __self: this
       }), __jsx("textarea", {
         "ling-translate": "ContactUsAdditionalInfo",
-        value: form.questions,
+        value: form.additionalInfo,
         onChange: this.onFormChange,
-        name: "questions",
+        name: "additionalInfo",
         placeholder: "(Optional) Any questions or comments you would like us to know ahead of time!",
         className: "input",
         style: {
@@ -756,7 +785,7 @@ function (_Component) {
         },
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 152
+          lineNumber: 193
         },
         __self: this
       })), __jsx("button", {
@@ -767,7 +796,7 @@ function (_Component) {
         className: "standard-button",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 158
+          lineNumber: 200
         },
         __self: this
       }, "Submit")));
@@ -775,7 +804,7 @@ function (_Component) {
   }]);
 
   return ContactUs;
-}(react__WEBPACK_IMPORTED_MODULE_13__["Component"]);
+}(react__WEBPACK_IMPORTED_MODULE_14__["Component"]);
 
 /* harmony default export */ __webpack_exports__["default"] = (ContactUs);
 
@@ -1118,6 +1147,204 @@ var Header = function Header(_ref) {
 
 /***/ }),
 
+/***/ "./components/NotificationPopup/Notification/Notification.js":
+/*!*******************************************************************!*\
+  !*** ./components/NotificationPopup/Notification/Notification.js ***!
+  \*******************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _Notification_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Notification.scss */ "./components/NotificationPopup/Notification/Notification.scss");
+/* harmony import */ var _Notification_scss__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_Notification_scss__WEBPACK_IMPORTED_MODULE_1__);
+var _jsxFileName = "/Users/brennanbatalla/Projects/WebApps/linguart/linguartech-company-website/components/NotificationPopup/Notification/Notification.js";
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+
+
+var Notification = function Notification(_ref) {
+  var title = _ref.title,
+      _ref$type = _ref.type,
+      type = _ref$type === void 0 ? "success" : _ref$type,
+      _ref$display = _ref.display,
+      display = _ref$display === void 0 ? false : _ref$display;
+  return __jsx("div", {
+    id: "Notification",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 5
+    },
+    __self: this
+  }, __jsx("span", {
+    className: "notification-base ".concat(type, " ").concat(display ? "display" : ""),
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 6
+    },
+    __self: this
+  }, title));
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (Notification);
+
+/***/ }),
+
+/***/ "./components/NotificationPopup/NotificationPopup.js":
+/*!***********************************************************!*\
+  !*** ./components/NotificationPopup/NotificationPopup.js ***!
+  \***********************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_objectDestructuringEmpty__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/objectDestructuringEmpty */ "./node_modules/@babel/runtime-corejs2/helpers/esm/objectDestructuringEmpty.js");
+/* harmony import */ var _babel_runtime_corejs2_core_js_object_keys__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime-corejs2/core-js/object/keys */ "./node_modules/@babel/runtime-corejs2/core-js/object/keys.js");
+/* harmony import */ var _babel_runtime_corejs2_core_js_object_keys__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_corejs2_core_js_object_keys__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/classCallCheck */ "./node_modules/@babel/runtime-corejs2/helpers/esm/classCallCheck.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/createClass */ "./node_modules/@babel/runtime-corejs2/helpers/esm/createClass.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/possibleConstructorReturn */ "./node_modules/@babel/runtime-corejs2/helpers/esm/possibleConstructorReturn.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/getPrototypeOf */ "./node_modules/@babel/runtime-corejs2/helpers/esm/getPrototypeOf.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/assertThisInitialized */ "./node_modules/@babel/runtime-corejs2/helpers/esm/assertThisInitialized.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/inherits */ "./node_modules/@babel/runtime-corejs2/helpers/esm/inherits.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/defineProperty */ "./node_modules/@babel/runtime-corejs2/helpers/esm/defineProperty.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_9__);
+/* harmony import */ var _Notification_Notification__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./Notification/Notification */ "./components/NotificationPopup/Notification/Notification.js");
+/* harmony import */ var _NotificationPopup_scss__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./NotificationPopup.scss */ "./components/NotificationPopup/NotificationPopup.scss");
+/* harmony import */ var _NotificationPopup_scss__WEBPACK_IMPORTED_MODULE_11___default = /*#__PURE__*/__webpack_require__.n(_NotificationPopup_scss__WEBPACK_IMPORTED_MODULE_11__);
+/* harmony import */ var event_subscription__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! event-subscription */ "./node_modules/event-subscription/index.js");
+/* harmony import */ var event_subscription__WEBPACK_IMPORTED_MODULE_12___default = /*#__PURE__*/__webpack_require__.n(event_subscription__WEBPACK_IMPORTED_MODULE_12__);
+/* harmony import */ var _constants__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ../../constants */ "./constants.js");
+
+
+
+
+
+
+
+
+
+var _jsxFileName = "/Users/brennanbatalla/Projects/WebApps/linguart/linguartech-company-website/components/NotificationPopup/NotificationPopup.js";
+var __jsx = react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement;
+
+
+
+
+
+
+var NotificationPopup =
+/*#__PURE__*/
+function (_Component) {
+  Object(_babel_runtime_corejs2_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_7__["default"])(NotificationPopup, _Component);
+
+  function NotificationPopup() {
+    var _getPrototypeOf2;
+
+    var _this;
+
+    Object(_babel_runtime_corejs2_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_2__["default"])(this, NotificationPopup);
+
+    for (var _len = arguments.length, args = new Array(_len), _key = 0; _key < _len; _key++) {
+      args[_key] = arguments[_key];
+    }
+
+    _this = Object(_babel_runtime_corejs2_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_4__["default"])(this, (_getPrototypeOf2 = Object(_babel_runtime_corejs2_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_5__["default"])(NotificationPopup)).call.apply(_getPrototypeOf2, [this].concat(args)));
+
+    Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_8__["default"])(Object(_babel_runtime_corejs2_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_6__["default"])(_this), "state", {
+      notifications: {
+        0: {
+          title: "Form Submitted!",
+          type: "success"
+        }
+      }
+    });
+
+    Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_8__["default"])(Object(_babel_runtime_corejs2_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_6__["default"])(_this), "noticeSubscription", null);
+
+    Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_8__["default"])(Object(_babel_runtime_corejs2_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_6__["default"])(_this), "addNotification", function (notification) {
+      var obj = _this.state.notifications;
+      obj[_babel_runtime_corejs2_core_js_object_keys__WEBPACK_IMPORTED_MODULE_1___default()(_this.state.notifications).length] = notification;
+
+      _this.setState(function (state) {
+        return {
+          notifications: obj
+        };
+      });
+    });
+
+    Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_8__["default"])(Object(_babel_runtime_corejs2_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_6__["default"])(_this), "removeNotification", function (index) {
+      setTimeout(function () {
+        if (_this.state.notifications[index]) {
+          var obj = _this.state.notifications;
+          delete obj[index];
+
+          _this.setState(function () {
+            return {
+              notifications: obj
+            };
+          });
+        }
+      }, 3000);
+    });
+
+    return _this;
+  }
+
+  Object(_babel_runtime_corejs2_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_3__["default"])(NotificationPopup, [{
+    key: "componentDidMount",
+    value: function componentDidMount() {
+      this.noticeSubscription = Object(event_subscription__WEBPACK_IMPORTED_MODULE_12__["subscribe"])(_constants__WEBPACK_IMPORTED_MODULE_13__["ADD_NOTIFCATION"], this.addNotification);
+    }
+  }, {
+    key: "render",
+    value: function render() {
+      var _this2 = this;
+
+      var notifications = this.state.notifications;
+      return __jsx("div", {
+        id: "NotificationPopup",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 55
+        },
+        __self: this
+      }, _babel_runtime_corejs2_core_js_object_keys__WEBPACK_IMPORTED_MODULE_1___default()(notifications).map(function (index, key) {
+        var notification = notifications[index];
+
+        _this2.removeNotification(index);
+
+        return __jsx(_Notification_Notification__WEBPACK_IMPORTED_MODULE_10__["default"], {
+          key: key,
+          title: notification.title,
+          type: notification.type,
+          display: true,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 60
+          },
+          __self: this
+        });
+      }));
+    }
+  }]);
+
+  return NotificationPopup;
+}(react__WEBPACK_IMPORTED_MODULE_9__["Component"]);
+
+function mapStateToProps(_ref) {
+  Object(_babel_runtime_corejs2_helpers_esm_objectDestructuringEmpty__WEBPACK_IMPORTED_MODULE_0__["default"])(_ref);
+
+  return {};
+}
+
+/* harmony default export */ __webpack_exports__["default"] = (NotificationPopup);
+
+/***/ }),
+
 /***/ "./components/Sidenav/Sidenav.js":
 /*!***************************************!*\
   !*** ./components/Sidenav/Sidenav.js ***!
@@ -1248,8 +1475,8 @@ function (_Component) {
   }
 
   Object(_babel_runtime_corejs2_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_7__["default"])(Sidenav, [{
-    key: "componentWillMount",
-    value: function componentWillMount() {
+    key: "componentDidMount",
+    value: function componentDidMount() {
       this.sideDrawerSubscription = Object(event_subscription__WEBPACK_IMPORTED_MODULE_14__["subscribe"])(_constants__WEBPACK_IMPORTED_MODULE_15__["SUBSCRIBE_NAV_DRAWER"], this.toggleNavDrawer);
       this.activeSectionSubscription = Object(event_subscription__WEBPACK_IMPORTED_MODULE_14__["subscribe"])(_constants__WEBPACK_IMPORTED_MODULE_15__["SUBSCRIBE_ACTIVE_SECTION"], this.setActiveSection);
     }
@@ -1879,7 +2106,7 @@ function (_Component) {
 /*!**********************!*\
   !*** ./constants.js ***!
   \**********************/
-/*! exports provided: APP_NAME, SUBSCRIBE_NAV_DRAWER, SUBSCRIBE_ACTIVE_SECTION */
+/*! exports provided: APP_NAME, SUBSCRIBE_NAV_DRAWER, SUBSCRIBE_ACTIVE_SECTION, ADD_NOTIFCATION */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1887,20 +2114,22 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "APP_NAME", function() { return APP_NAME; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "SUBSCRIBE_NAV_DRAWER", function() { return SUBSCRIBE_NAV_DRAWER; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "SUBSCRIBE_ACTIVE_SECTION", function() { return SUBSCRIBE_ACTIVE_SECTION; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ADD_NOTIFCATION", function() { return ADD_NOTIFCATION; });
 var APP_NAME = "linguartech";
 var SUBSCRIBE_NAV_DRAWER = "SUBSCRIBE_NAV_DRAWER";
 var SUBSCRIBE_ACTIVE_SECTION = "SUBSCRIBE_ACTIVE_SECTION";
+var ADD_NOTIFCATION = "ADD_NOTIFCATION";
 
 /***/ }),
 
-/***/ "./countryCodes.json":
-/*!***************************!*\
-  !*** ./countryCodes.json ***!
-  \***************************/
-/*! exports provided: BD, BE, BF, BG, BA, BB, WF, BL, BM, BN, BO, BH, BI, BJ, BT, JM, BW, WS, BQ, BR, BS, JE, BY, BZ, RU, RW, RS, TL, RE, TM, TJ, RO, TK, GW, GU, GT, GR, GQ, GP, JP, GY, GG, GF, GE, GD, GB, GA, SV, GN, GM, GL, GI, GH, OM, TN, JO, HR, HT, HU, HK, HN, VE, PR, PS, PW, PT, SJ, PY, IQ, PA, PF, PG, PE, PK, PH, PN, PL, PM, ZM, EH, EE, EG, ZA, EC, IT, VN, SB, ET, SO, ZW, SA, ES, ER, ME, MD, MG, MF, MA, MC, UZ, MM, ML, MO, MN, MH, MK, MU, MT, MW, MV, MQ, MP, MS, MR, IM, UG, TZ, MY, MX, IL, FR, IO, SH, FI, FJ, FK, FM, FO, NI, NL, NO, NA, VU, NC, NE, NF, NG, NZ, NP, NR, NU, CK, CI, CH, CO, CN, CM, CL, CC, CA, CG, CF, CD, CZ, CY, CX, CR, CW, CV, CU, SZ, SY, SX, KG, KE, SS, SR, KI, KH, KN, KM, ST, SK, KR, SI, KP, KW, SN, SM, SL, SC, KZ, KY, SG, SE, SD, DO, DM, DJ, DK, VG, DE, YE, DZ, US, UY, YT, UM, LB, LC, LA, TV, TW, TT, TR, LK, LI, LV, TO, LT, LU, LR, LS, TH, TG, TD, TC, LY, VA, VC, AE, AD, AG, AF, AI, VI, IS, IR, AM, AL, AO, AS, AR, AU, AT, AW, IN, AX, AZ, IE, ID, UA, QA, MZ, default */
-/***/ (function(module) {
+/***/ "./node_modules/@babel/runtime-corejs2/core-js/json/stringify.js":
+/*!***********************************************************************!*\
+  !*** ./node_modules/@babel/runtime-corejs2/core-js/json/stringify.js ***!
+  \***********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
 
-module.exports = JSON.parse("{\"BD\":\"880\",\"BE\":\"32\",\"BF\":\"226\",\"BG\":\"359\",\"BA\":\"387\",\"BB\":\"+1-246\",\"WF\":\"681\",\"BL\":\"590\",\"BM\":\"+1-441\",\"BN\":\"673\",\"BO\":\"591\",\"BH\":\"973\",\"BI\":\"257\",\"BJ\":\"229\",\"BT\":\"975\",\"JM\":\"+1-876\",\"BW\":\"267\",\"WS\":\"685\",\"BQ\":\"599\",\"BR\":\"55\",\"BS\":\"+1-242\",\"JE\":\"+44-1534\",\"BY\":\"375\",\"BZ\":\"501\",\"RU\":\"7\",\"RW\":\"250\",\"RS\":\"381\",\"TL\":\"670\",\"RE\":\"262\",\"TM\":\"993\",\"TJ\":\"992\",\"RO\":\"40\",\"TK\":\"690\",\"GW\":\"245\",\"GU\":\"+1-671\",\"GT\":\"502\",\"GR\":\"30\",\"GQ\":\"240\",\"GP\":\"590\",\"JP\":\"81\",\"GY\":\"592\",\"GG\":\"+44-1481\",\"GF\":\"594\",\"GE\":\"995\",\"GD\":\"+1-473\",\"GB\":\"44\",\"GA\":\"241\",\"SV\":\"503\",\"GN\":\"224\",\"GM\":\"220\",\"GL\":\"299\",\"GI\":\"350\",\"GH\":\"233\",\"OM\":\"968\",\"TN\":\"216\",\"JO\":\"962\",\"HR\":\"385\",\"HT\":\"509\",\"HU\":\"36\",\"HK\":\"852\",\"HN\":\"504\",\"VE\":\"58\",\"PR\":\"+1-787 and 1-939\",\"PS\":\"970\",\"PW\":\"680\",\"PT\":\"351\",\"SJ\":\"47\",\"PY\":\"595\",\"IQ\":\"964\",\"PA\":\"507\",\"PF\":\"689\",\"PG\":\"675\",\"PE\":\"51\",\"PK\":\"92\",\"PH\":\"63\",\"PN\":\"870\",\"PL\":\"48\",\"PM\":\"508\",\"ZM\":\"260\",\"EH\":\"212\",\"EE\":\"372\",\"EG\":\"20\",\"ZA\":\"27\",\"EC\":\"593\",\"IT\":\"39\",\"VN\":\"84\",\"SB\":\"677\",\"ET\":\"251\",\"SO\":\"252\",\"ZW\":\"263\",\"SA\":\"966\",\"ES\":\"34\",\"ER\":\"291\",\"ME\":\"382\",\"MD\":\"373\",\"MG\":\"261\",\"MF\":\"590\",\"MA\":\"212\",\"MC\":\"377\",\"UZ\":\"998\",\"MM\":\"95\",\"ML\":\"223\",\"MO\":\"853\",\"MN\":\"976\",\"MH\":\"692\",\"MK\":\"389\",\"MU\":\"230\",\"MT\":\"356\",\"MW\":\"265\",\"MV\":\"960\",\"MQ\":\"596\",\"MP\":\"+1-670\",\"MS\":\"+1-664\",\"MR\":\"222\",\"IM\":\"+44-1624\",\"UG\":\"256\",\"TZ\":\"255\",\"MY\":\"60\",\"MX\":\"52\",\"IL\":\"972\",\"FR\":\"33\",\"IO\":\"246\",\"SH\":\"290\",\"FI\":\"358\",\"FJ\":\"679\",\"FK\":\"500\",\"FM\":\"691\",\"FO\":\"298\",\"NI\":\"505\",\"NL\":\"31\",\"NO\":\"47\",\"NA\":\"264\",\"VU\":\"678\",\"NC\":\"687\",\"NE\":\"227\",\"NF\":\"672\",\"NG\":\"234\",\"NZ\":\"64\",\"NP\":\"977\",\"NR\":\"674\",\"NU\":\"683\",\"CK\":\"682\",\"CI\":\"225\",\"CH\":\"41\",\"CO\":\"57\",\"CN\":\"86\",\"CM\":\"237\",\"CL\":\"56\",\"CC\":\"61\",\"CA\":\"1\",\"CG\":\"242\",\"CF\":\"236\",\"CD\":\"243\",\"CZ\":\"420\",\"CY\":\"357\",\"CX\":\"61\",\"CR\":\"506\",\"CW\":\"599\",\"CV\":\"238\",\"CU\":\"53\",\"SZ\":\"268\",\"SY\":\"963\",\"SX\":\"599\",\"KG\":\"996\",\"KE\":\"254\",\"SS\":\"211\",\"SR\":\"597\",\"KI\":\"686\",\"KH\":\"855\",\"KN\":\"+1-869\",\"KM\":\"269\",\"ST\":\"239\",\"SK\":\"421\",\"KR\":\"82\",\"SI\":\"386\",\"KP\":\"850\",\"KW\":\"965\",\"SN\":\"221\",\"SM\":\"378\",\"SL\":\"232\",\"SC\":\"248\",\"KZ\":\"7\",\"KY\":\"+1-345\",\"SG\":\"65\",\"SE\":\"46\",\"SD\":\"249\",\"DO\":\"+1-809 and 1-829\",\"DM\":\"+1-767\",\"DJ\":\"253\",\"DK\":\"45\",\"VG\":\"+1-284\",\"DE\":\"49\",\"YE\":\"967\",\"DZ\":\"213\",\"US\":\"1\",\"UY\":\"598\",\"YT\":\"262\",\"UM\":\"1\",\"LB\":\"961\",\"LC\":\"+1-758\",\"LA\":\"856\",\"TV\":\"688\",\"TW\":\"886\",\"TT\":\"+1-868\",\"TR\":\"90\",\"LK\":\"94\",\"LI\":\"423\",\"LV\":\"371\",\"TO\":\"676\",\"LT\":\"370\",\"LU\":\"352\",\"LR\":\"231\",\"LS\":\"266\",\"TH\":\"66\",\"TG\":\"228\",\"TD\":\"235\",\"TC\":\"+1-649\",\"LY\":\"218\",\"VA\":\"379\",\"VC\":\"+1-784\",\"AE\":\"971\",\"AD\":\"376\",\"AG\":\"+1-268\",\"AF\":\"93\",\"AI\":\"+1-264\",\"VI\":\"+1-340\",\"IS\":\"354\",\"IR\":\"98\",\"AM\":\"374\",\"AL\":\"355\",\"AO\":\"244\",\"AS\":\"+1-684\",\"AR\":\"54\",\"AU\":\"61\",\"AT\":\"43\",\"AW\":\"297\",\"IN\":\"91\",\"AX\":\"+358-18\",\"AZ\":\"994\",\"IE\":\"353\",\"ID\":\"62\",\"UA\":\"380\",\"QA\":\"974\",\"MZ\":\"258\"}");
+module.exports = __webpack_require__(/*! core-js/library/fn/json/stringify */ "./node_modules/core-js/library/fn/json/stringify.js");
 
 /***/ }),
 
@@ -2279,6 +2508,22 @@ function _typeof(obj) {
 
   return _typeof(obj);
 }
+
+/***/ }),
+
+/***/ "./node_modules/core-js/library/fn/json/stringify.js":
+/*!***********************************************************!*\
+  !*** ./node_modules/core-js/library/fn/json/stringify.js ***!
+  \***********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var core = __webpack_require__(/*! ../../modules/_core */ "./node_modules/core-js/library/modules/_core.js");
+var $JSON = core.JSON || (core.JSON = { stringify: JSON.stringify });
+module.exports = function stringify(it) { // eslint-disable-line no-unused-vars
+  return $JSON.stringify.apply($JSON, arguments);
+};
+
 
 /***/ }),
 
@@ -7610,6 +7855,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react_scroll__WEBPACK_IMPORTED_MODULE_23___default = /*#__PURE__*/__webpack_require__.n(react_scroll__WEBPACK_IMPORTED_MODULE_23__);
 /* harmony import */ var _components_Sidenav_Sidenav__WEBPACK_IMPORTED_MODULE_24__ = __webpack_require__(/*! ../components/Sidenav/Sidenav */ "./components/Sidenav/Sidenav.js");
 /* harmony import */ var _components_Footer_Footer__WEBPACK_IMPORTED_MODULE_25__ = __webpack_require__(/*! ../components/Footer/Footer */ "./components/Footer/Footer.js");
+/* harmony import */ var _components_NotificationPopup_NotificationPopup__WEBPACK_IMPORTED_MODULE_26__ = __webpack_require__(/*! ../components/NotificationPopup/NotificationPopup */ "./components/NotificationPopup/NotificationPopup.js");
 
 
 
@@ -7619,6 +7865,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var _jsxFileName = "/Users/brennanbatalla/Projects/WebApps/linguart/linguartech-company-website/pages/index.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement;
+
 
 
 
@@ -7731,28 +7978,34 @@ function (_Component) {
         id: "Index",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 89
+          lineNumber: 90
         },
         __self: this
-      }, __jsx(_components_Toolbar_Toolbar__WEBPACK_IMPORTED_MODULE_8__["default"], {
+      }, __jsx(_components_NotificationPopup_NotificationPopup__WEBPACK_IMPORTED_MODULE_26__["default"], {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 91
+        },
+        __self: this
+      }), __jsx(_components_Toolbar_Toolbar__WEBPACK_IMPORTED_MODULE_8__["default"], {
         scrollTo: this.scrollTo,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 90
+          lineNumber: 93
         },
         __self: this
       }), __jsx(_components_Sidenav_Sidenav__WEBPACK_IMPORTED_MODULE_24__["default"], {
         scrollTo: this.scrollTo,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 92
+          lineNumber: 95
         },
         __self: this
       }), __jsx(_components_Header_Header__WEBPACK_IMPORTED_MODULE_11__["default"], {
         scrollTo: this.scrollTo,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 94
+          lineNumber: 97
         },
         __self: this
       }), __jsx(_components_EnterEmail_EnterEmail__WEBPACK_IMPORTED_MODULE_13__["default"], {
@@ -7760,38 +8013,38 @@ function (_Component) {
         value: email,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 96
+          lineNumber: 99
         },
         __self: this
       }), __jsx(_components_About_About__WEBPACK_IMPORTED_MODULE_12__["default"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 98
+          lineNumber: 101
         },
         __self: this
       }), __jsx(_components_Team_Team__WEBPACK_IMPORTED_MODULE_14__["default"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 100
+          lineNumber: 103
         },
         __self: this
       }), __jsx(_components_Steps_StepsComponent__WEBPACK_IMPORTED_MODULE_15__["default"], {
         steps: this.steps,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 102
+          lineNumber: 105
         },
         __self: this
       }), __jsx(_components_ContactUs_ContactUs__WEBPACK_IMPORTED_MODULE_22__["default"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 104
+          lineNumber: 107
         },
         __self: this
       }), __jsx(_components_Footer_Footer__WEBPACK_IMPORTED_MODULE_25__["default"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 106
+          lineNumber: 109
         },
         __self: this
       }));

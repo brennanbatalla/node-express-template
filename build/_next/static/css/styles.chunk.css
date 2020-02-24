@@ -795,5 +795,29 @@ p {
     #FooterComponent {
       padding: 32px 5%; } }
 
+#Notification span {
+  display: block; }
+
+#Notification .error {
+  background-color: #d51a00; }
+
+#Notification .success {
+  background-color: #059c05; }
+
+#Notification .notification-base {
+  color: white;
+  padding: 16px;
+  border-radius: 30px;
+  font-weight: 100;
+  box-shadow: 0 10px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  transition: 1s linear;
+  margin-top: 10px; }
+
+#NotificationPopup {
+  position: fixed;
+  right: 30px;
+  margin-top: 30px;
+  z-index: 100; }
+
 
 /*# sourceMappingURL=styles.chunk.css.map*/
