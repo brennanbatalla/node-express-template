@@ -3,6 +3,7 @@
 let mysql = require('mysql');
 const TABLE_NAMES = require('./TableNames');
 let initMethods = null;
+const databaseName = process.env.mysql_database;
 const createTableENVs = ['dev', 'qa'];
 
 let initTables = (connection) => {
@@ -15,7 +16,7 @@ let initTables = (connection) => {
 
         let tableMap = {};
         results.forEach((RowDataPacket) => {
-            tableMap[RowDataPacket.Tables_in_fat_cat] = true;
+            tableMap[RowDataPacket[`Tables_in_${databaseName.toLowerCase()}`]] = true;
         });
 
         initMethods.forEach((method) => {
@@ -26,82 +27,51 @@ let initTables = (connection) => {
 
 };
 
-const initCompaniesTable = (tables, connection) => {
-    let table = TABLE_NAMES.COMPANY_TABLE;
-    if (tables[table]) {
+const initEmailsTable = (tables, connection) => {
+    if (tables[TABLE_NAMES.EMAIL_TABLE]) {
         return;
     }
-
-    let sql = mysql.format("CREATE TABLE ?? (\n" +
-        "  `id` INT NOT NULL AUTO_INCREMENT,\n" +
-        "  `name` VARCHAR(45) NOT NULL,\n" +
-        "  PRIMARY KEY (`id`));", [table]);
+    let tableName = TABLE_NAMES.EMAIL_TABLE;
+    let sql = mysql.format("CREATE TABLE ??.?? (" +
+        "`email` VARCHAR(255) NOT NULL," +
+        "UNIQUE INDEX `email_UNIQUE` (`email` ASC)," +
+        "PRIMARY KEY (`email`));"
+        , [databaseName, tableName]);
 
     connection.query(sql, (error, results, fields) => {
         if (error) {
             throw new Error(error);
         }
-        console.log("Created Companies Table");
-
-        if (!createTableENVs.includes(process.env.NODE_ENV)) {
-            return;
-        }
-
-        let sql = mysql.format("INSERT INTO ?? (`id`, `name`) VALUES " +
-            "('1', 'Fat Cat')",
-            [table]);
-
-        connection.query(sql, (error, results, fields) => {
-            if (error) {
-                throw new Error(error);
-            }
-
-            console.log("SEEDED Companies TABLE");
-        })
+        console.log("Created Emails Table");
     })
 
 
 };
 
-const initAddressTable = (tables, connection) => {
-    if (tables[TABLE_NAMES.ADDRESS_TABLE]) {
+
+const initContactUsTable = (tables, connection) => {
+    if (tables[TABLE_NAMES.CONTACT_US_TABLE]) {
         return;
     }
-
-    let sql = mysql.format("CREATE TABLE FAT_CAT.??" +
-        " (id INT NOT NULL AUTO_INCREMENT, street VARCHAR(255) NOT NULL," +
-        "  city VARCHAR(150) NOT NULL, state VARCHAR(45) NOT NULL, zipcode VARCHAR(20)" +
-        " NOT NULL, PRIMARY KEY (id));", [TABLE_NAMES.ADDRESS_TABLE]);
+    let tableName = TABLE_NAMES.CONTACT_US_TABLE;
+    let sql = mysql.format("CREATE TABLE ??.?? ( " +
+        "`id` INT NOT NULL AUTO_INCREMENT," +
+        "`firstName` VARCHAR(100) NOT NULL," +
+        "`lastName` VARCHAR(100) NOT NULL," +
+        "`email` VARCHAR(255) NOT NULL," +
+        "`phoneNumber` VARCHAR(45) NOT NULL," +
+        "`additionalInfo` VARCHAR(255) NULL," +
+        "PRIMARY KEY (`id`, `firstName`)," +
+        "UNIQUE INDEX `id_UNIQUE` (`id` ASC));", [databaseName, tableName]);
 
     connection.query(sql, (error, results, fields) => {
         if (error) {
             throw new Error(error);
         }
-        console.log("Created Address Table");
-
-        if (!createTableENVs.includes(process.env.NODE_ENV)) {
-            return;
-        }
-
-        let sql = mysql.format("INSERT INTO ?? (`id`, `street`, `city`, `state`, `zipcode`) VALUES " +
-            "('1', '117 Frog Hollow Road', 'Forked River', 'NJ', '08731')," +
-            "('2', '712 S Juniper st', 'Philadelphia', 'PA', '19147')," +
-            "('3', '1611 South st', 'Philadelphia', 'PA', '19146')," +
-            "('4', '3671 John F Kennedy BLVD', 'Jersey City', 'NJ', '07307')",
-            [TABLE_NAMES.ADDRESS_TABLE]);
-
-        connection.query(sql, (error, results, fields) => {
-            if (error) {
-                throw new Error(error);
-            }
-
-            console.log("SEEDED Address Table");
-        })
-
+        console.log("Created Contact Us Table");
     })
-
-
 };
+
 
 const initStoreLocationTable = (tables, connection) => {
     if (tables[TABLE_NAMES.STORES_TABLE]) {
@@ -450,7 +420,6 @@ const initOrderedItemsTable = (tables, connection) => {
 };
 
 
-
-initMethods = [];
+initMethods = [initEmailsTable, initContactUsTable];
 
 module.exports = initTables;
