@@ -2,7 +2,7 @@ const express = require('express')
     , router = express.Router(),
     contactUsService = require("../../services/contactUs");
 
-router.post('/', function (req, res) {
+router.post('/',  (req, res) => {
 
     let body = req.body;
 
@@ -27,6 +27,26 @@ router.post('/', function (req, res) {
         .then(() => {
             res.send('Form Submitted!')
 
+        })
+        .catch((error) => {
+            res.status(500).send(error)
+        });
+
+
+});
+
+router.post('/email', (req, res) => {
+
+    let body = req.body;
+
+    if (!body.email) {
+        res.status(403).send(`Missing Fields: email`);
+        return;
+    }
+
+    contactUsService.saveEmail(body)
+        .then(() => {
+            res.send('Email Saved!')
         })
         .catch((error) => {
             res.status(500).send(error)

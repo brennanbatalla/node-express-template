@@ -20,3 +20,21 @@ module.exports.saveForm = async (body) => {
     });
 
 };
+
+module.exports.saveEmail = async (body) => {
+    let tableName = TableNames.EMAIL_TABLE;
+
+    let sql = mysql.format("INSERT INTO ??.?? (email)" +
+        " VALUES (?)"
+        , [databaseName, tableName, body["email"]]);
+
+
+    await connectionPool.query(sql, (error, result) => {
+        if (error) {
+            throw new Error(error);
+        }
+
+        return result
+    });
+
+};
