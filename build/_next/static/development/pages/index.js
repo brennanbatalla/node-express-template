@@ -9785,7 +9785,7 @@ module.exports = JSON.parse("{\"HeaderTitle\":{\"zh-traditional\":\"學習與探
 
 /***/ }),
 
-/***/ 1:
+/***/ 2:
 /*!***************************************************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2F&absolutePagePath=%2FUsers%2Fbrennanbatalla%2FProjects%2FWebApps%2Flinguart%2Flinguartech-company-website%2Fpages%2Findex.js ***!
   \***************************************************************************************************************************************************************************/
@@ -9808,5 +9808,5 @@ module.exports = dll_ef0ff7c60362f24a921f;
 
 /***/ })
 
-},[[1,"static/runtime/webpack.js","styles"]]]);
+},[[2,"static/runtime/webpack.js","styles"]]]);
 //# sourceMappingURL=index.js.map

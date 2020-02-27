@@ -231,7 +231,7 @@ p {
   padding: 100px 10% 0;
   background-color: #31AFD4;
   box-shadow: 0 10px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  height: 500px; }
+  height: 90vh; }
   #HeaderComponent .headerTitle {
     font-size: 3em;
     line-height: 1em;
@@ -359,7 +359,7 @@ p {
     #HeaderComponent {
       box-sizing: border-box;
       padding: 50px 5% 0;
-      height: 100vh; }
+      height: 110vh; }
       #HeaderComponent .headerContent {
         flex-direction: column; }
       #HeaderComponent .headerTitle {
